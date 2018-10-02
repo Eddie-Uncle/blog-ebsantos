@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="english">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="http://www.ebsantos.com/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="http://www.ebsantos.com/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="http://www.ebsantos.com/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="http://www.ebsantos.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Edson Bernardo Santos Atom">
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-113403966-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+<meta name="author" content="Edson Santos" />
+<meta name="description" content="Docker Resource Kit Installing Docker RedHat --&gt; yum -y install docker; Ubuntu --&gt; apt install docker; MacOS --&gt; brew install docker; Istalling Docker Compose Find below the link with instructions: Docker Compose Install Important tip, always check if you have your Docker Repo updated /etc/yum.repos.d/docker.repo (RHEL) Containers - Downloading …" />
+<meta name="keywords" content="Devops, Containers, SysOps">
+
+<meta property="og:site_name" content="Edson Bernardo Santos"/>
+<meta property="og:title" content="The Docker Ninja!"/>
+<meta property="og:description" content="Docker Resource Kit Installing Docker RedHat --&gt; yum -y install docker; Ubuntu --&gt; apt install docker; MacOS --&gt; brew install docker; Istalling Docker Compose Find below the link with instructions: Docker Compose Install Important tip, always check if you have your Docker Repo updated /etc/yum.repos.d/docker.repo (RHEL) Containers - Downloading …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="http://www.ebsantos.com/Dockercommand.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2018-02-07 01:50:00-06:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="http://www.ebsantos.com/author/edson-santos.html">
+<meta property="article:section" content="Technology"/>
+<meta property="article:tag" content="Devops"/>
+<meta property="article:tag" content="Containers"/>
+<meta property="article:tag" content="SysOps"/>
+<meta property="og:image" content="https://s.gravatar.com/avatar/c576edba5d85275fc58f4c183c8d9ad5?s=80">
+
+  <title>Edson Bernardo Santos &ndash; The Docker Ninja!</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="http://www.ebsantos.com">
+        <img src="https://s.gravatar.com/avatar/c576edba5d85275fc58f4c183c8d9ad5?s=80" alt="Edson Santos" title="Edson Santos">
+      </a>
+      <h1><a href="http://www.ebsantos.com">Edson Santos</a></h1>
+
+
+      <nav>
+        <ul class="list">
+
+          <li><a href="http://www.ebsantos.com/EdsonSantos.html" target="_blank">About</a></li>
+          <li><a href="http://kubernetes.io/" target="_blank">Kubernetes</a></li>
+          <li><a href="http://python.org/" target="_blank">Python</a></li>
+          <li><a href="https://blogs.oracle.com/weblogicserver/" target="_blank">Oracle WebLogic</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-linkedin" href="https://www.linkedin.com/in/bernardsp/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="sc-github" href="https://github.com/Eddie-Uncle" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a class="sc-twitter" href="https://twitter.com/bernardsp" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="sc-medium" href="https://medium.com/@edsonsantos_4197" target="_blank"><i class="fa fa-medium"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="http://www.ebsantos.com">Home</a>
+
+      <a href="/archives.html">Archives</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+
+      <a href="http://www.ebsantos.com/feeds/all.atom.xml">Atom</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="Dockercommand">The Docker Ninja!</h1>
+    <p>
+      Posted on Wed 07 February 2018 in <a href="http://www.ebsantos.com/category/technology.html">Technology</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <h1>Docker Resource Kit</h1>
+<p><em>Installing Docker</em></p>
+<div class="codehilite"><pre><span></span>RedHat --&gt; yum -y install docker;
+Ubuntu --&gt; apt install docker;
+MacOS --&gt; brew install docker;
+</pre></div>
+
+
+<p><em>Istalling Docker Compose</em></p>
+<p>Find below the link with instructions:</p>
+<p><strong><a href="https://docs.docker.com/compose/install/" target="_blank">Docker Compose Install</a></strong></p>
+<p><em>Important tip, always check if you have your Docker Repo updated</em></p>
+<div class="codehilite"><pre><span></span>/etc/yum.repos.d/docker.repo    (RHEL)
+</pre></div>
+
+
+<p><em>Containers - Downloading Images and Creating containers</em></p>
+<div class="codehilite"><pre><span></span>docker run -dit ubuntu:latest
+</pre></div>
+
+
+<p><em>Containers operational cycle</em></p>
+<div class="codehilite"><pre><span></span>docker ps -a (List all containers created)
+docker start $(docker ps -a -q)
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+</pre></div>
+
+
+<p><em>Containers = per Status</em></p>
+<div class="codehilite"><pre><span></span>docker start $(docker ps -aq -f status=exited)
+docker rm $(docker ps -aq -f status=exited)
+sudo docker ps -a | grep exited | cut -d &#39; &#39; -f 1 | xargs sudo docker rm
+</pre></div>
+
+
+<p><em>Docker  removing Images - Docker rmi</em></p>
+<p>Usage:</p>
+<div class="codehilite"><pre><span></span>docker rmi $( sudo docker images | grep ‘&#39;image_name&#39;&#39; | tr -s &#39; &#39; | cut -d &#39; &#39; -f 3)
+</pre></div>
+
+
+<p>Images = grep string gcr = google</p>
+<div class="codehilite"><pre><span></span>docker rmi $( docker images | grep &#39;gcr&#39; | tr -s &#39; &#39; | cut -d &#39; &#39; -f 3)
+</pre></div>
+
+
+<p>Images = grep string doc = docker</p>
+<div class="codehilite"><pre><span></span>docker rmi $( docker images | grep ‘docker&#39; | tr -s &#39; &#39; | cut -d &#39; &#39; -f 3)
+</pre></div>
+
+
+<p><strong>Saving Images</strong></p>
+<p>COMMIT savings into an image</p>
+<div class="codehilite"><pre><span></span>First, create a container from any pulled image!
+
+docker run -it &#39;base_image&#39; /bin/bash
+
+Make the necessary changes (Install updates and softwares you wish)
+
+Example: 
+yum -y upgrade &amp;&amp; yum -y update
+yum install httpd (RHEL)
+RUN apt-get update &amp;&amp; apt-get install -y props (Ubuntu)
+RUN apt-get update &amp;&amp; apt-get install -y iputils-ping (Ubuntu)
+
+Commit it with a new name Image.
+
+docker commit &#39;hash tag of running container&#39; new_image
+</pre></div>
+
+
+<h2>Installing Products (images) with Docker</h2>
+<p><strong>WordPress Stack</strong></p>
+<p><em>mariaDB (SQL Database)</em></p>
+<div class="codehilite"><pre><span></span>docker run -e MYSQL_ROOT_PASSWORD=mariadb -e MYSQL_DATABASE=wordpress --name wordpressdb -v “$PWD/database&quot;:/var/lib/mysql -d mariadb:latest
+</pre></div>
+
+
+<p><em>Wordpress</em></p>
+<div class="codehilite"><pre><span></span>docker run -e WORDPRESS_DB_PASSWORD=mariadb --name wordpress --link wordpressdb:mysql -p 0.0.0.0:80:80 -v &quot;$PWD/html&quot;:/var/www/html -d wordpress
+
+variables
+MYSQL_ROOT_PASSWORD=&#39;db_password&#39;
+MYSQL_DATABASE=&#39;name_database&#39;
+</pre></div>
+
+
+<p><strong>Splunk</strong></p>
+<div class="codehilite"><pre><span></span><span class="n">Example1</span><span class="o">:</span>
+<span class="n">docker</span> <span class="n">run</span> <span class="o">--</span><span class="n">name</span> <span class="n">splunkwls</span> <span class="o">--</span><span class="n">hostname</span> <span class="n">splunk01</span> <span class="o">-</span><span class="n">p</span> <span class="mi">8000</span><span class="o">:</span><span class="mi">8000</span> <span class="o">-</span><span class="n">e</span> <span class="s2">&quot;SPLUNK_START_ARGS=--accept-license&quot;</span> <span class="o">-</span><span class="n">v</span> <span class="s2">&quot;$PWD/opt&quot;</span><span class="o">:/</span><span class="n">opt</span><span class="sr">/splunk/var splunk/s</span><span class="n">plunk</span><span class="o">:</span><span class="n">latest</span>
+
+<span class="n">Example2</span><span class="o">:</span>
+<span class="n">docker</span> <span class="n">run</span> <span class="o">-</span><span class="n">d</span> <span class="o">--</span><span class="n">name</span> <span class="n">splunkwls</span> <span class="o">--</span><span class="n">hostname</span> <span class="n">splunk01</span> <span class="o">-</span><span class="n">p</span> <span class="mi">8000</span><span class="o">:</span><span class="mi">8000</span> <span class="o">-</span><span class="n">e</span> <span class="s2">&quot;SPLUNK_START_ARGS=--accept-license&quot;</span> <span class="o">-</span><span class="n">v</span> <span class="sr">/opt/oracle/Middleware/domains/snake01/servers:/mnt/splunk splunk/s</span><span class="n">plunk</span>
+
+<span class="n">user</span><span class="o">=</span><span class="n">passwd</span><span class="o">:</span> <span class="n">admin</span><span class="o">/</span><span class="n">admin01</span>
+
+<span class="n">Example</span><span class="o">:</span>
+<span class="n">Vars</span> <span class="o">=</span> <span class="sr">/host/directory:/container/</span><span class="n">directory</span>
+</pre></div>
+
+
+<p><strong>HTTPD - APACHE</strong></p>
+<p>DOCKER HTTPD IMAGE - as reference (only)</p>
+<div class="codehilite"><pre><span></span>docker pull http
+
+docker run -dit --name my-apache-app -v &quot;$PWD&quot;:/usr/local/apache2/htdocs/ -p 8000 httpd:2.4
+
+docker run -dit —name my-apache-app -v &quot;$PWD&quot;:/usr/local/apache2/htdocs/ -p 192.168.1.4:80:9000 httpd:2.4
+</pre></div>
+
+
+<p><strong>RANCHER</strong> --&gt; Amazing Product!</p>
+<div class="codehilite"><pre><span></span>docker run -d --restart=unless-stopped -p 8080:8080 rancher/server:stable
+
+docker run -d --restart=unless-stopped -p 8080:8080 rancher/server:preview
+</pre></div>
+
+
+<p><strong>UBUNTU</strong></p>
+<div class="codehilite"><pre><span></span>docker pull ubuntu:latest
+
+docker run -it -p 8080:80 -p 4443:443 —name &#39;containername&#39; &#39;containerimage&#39; ubuntu:latest /bin/bash
+</pre></div>
+
+
+<p><strong>Jira - Docker</strong></p>
+<div class="codehilite"><pre><span></span>https://hub.docker.com/r/blacklabelops/jira/
+
+docker run -d -p 8080:8080 -v jiravolume:/var/atlassian/jira --name bernardojira blacklabelops/jira
+</pre></div>
+
+
+<p><strong>DOCKER WEBLOGIC 12.2.1.3</strong></p>
+<p>Copy and paste below:</p>
+<div class="codehilite"><pre><span></span>docker run -d  —name b-001wls -p 7001:7001 -e ADMIN_USERNAME=weblogic -e ADMIN_PASSWORD=welcome1 -e DOMAIN_HOME=/u01/oracle/user_projects/domains/b001_domain -e DOMAIN_NAME=b001_domain oracle/weblogic:12.2.1.3-generic
+</pre></div>
+
+
+<p><strong>DOCKER &amp; RED HAT</strong></p>
+<p><em>Installing DOCKER CE (Community Edition on Red HAT Enterprise)</em></p>
+<p><em>Container SELINUX</em></p>
+<div class="codehilite"><pre><span></span>yum install -y http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.33-1.git86f33cd.el7.noarch.rpm
+
+Package Name: container-selinux-2.33-1.git86f33cd.el7.noarch.rpm
+</pre></div>
+
+
+<p><strong>DOCKER MACHINE</strong>
+Driver: VirtualBox (Oracle)</p>
+<div class="codehilite"><pre><span></span>docker-machine create -d virtualbox rancher01
+
+docker-machine create -d &#39;drive : virtualbox, vmware, cloud &#39;virtual machine name&#39;
+</pre></div>
+
+
+<p><strong>SysDig</strong></p>
+<p>docker run -d --name sysdig-agent --privileged --net host --pid host -e ACCESS_KEY=YOUR_ACCESS_KEY -v /var/run/docker.sock:/host/var/run/docker.sock -v /dev:/host/dev -v /proc:/host/proc:ro -v /boot:/host/boot:ro -v /lib/modules:/host/lib/modules:ro -v /usr:/host/usr:ro sysdig/agent</p>
+<p><em>Docker inspect feature</em></p>
+<div class="codehilite"><pre><span></span>docker inspect &#39;CONTAINER ID&#39; | grep -w &quot;IPAddress&quot; | awk &#39;{ print $2 }&#39; | head -n 1 | cut -d &quot;,&quot; -f1
+</pre></div>
+
+
+<h2>Troubleshooting Docker</h2>
+<p><strong>Get systemd (RedHat/CentOS) working properly after import from Docker Image</strong></p>
+<p>If you've been running into problems to use <strong>systemd</strong> on centOS 7 images from docker hub or any other container repository, you might would like to get rid of them, right?</p>
+<p>Find below the the steps you should use to fix it.</p>
+<p>You must have pulled off from an image of Docker hub, I'd suggest the link below:</p>
+<p><a href="https://hub.docker.com/r/_/centos/" target="_blank">Official Docker Hub CentOS</a></p>
+<p>Once you checked, you should type the command in your shell or command prompt just in case using Windows OS</p>
+<p><strong>docker pull centos</strong></p>
+<p>So, once you have done that, you have downloaded the centos image from docker hub, now you must run your container like this:</p>
+<p><strong>docker run -dit --name 'container_name' -p 'hostipmachine':80:80 --privileged -ti -e "container=docker" -v /sys/fs/cgroup:/sys/fs/cgroup -v "$PWD/html":/var/www/html dockerimage:latest /usr/sbin/init</strong></p>
+<p>Basically, you are informing the container type (which is docker) and after that, you should able to use systemd in your container. Additionally, in the example above, we are setting the port -p and sharing the volume between the host and the container</p>
+<p><strong>Go ahead and take a look yourself at DockerFiles, Docker Swarm, Docker Compose</strong></p>
+<p>Cheers...</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="http://www.ebsantos.com/tag/devops.html">Devops</a>
+      <a href="http://www.ebsantos.com/tag/containers.html">Containers</a>
+      <a href="http://www.ebsantos.com/tag/sysops.html">SysOps</a>
+    </p>
+  </div>
+
+
+  <div class="neighbors">
+    <a class="btn float-left" href="http://www.ebsantos.com/Linuxcommand.html" title="Unix/Linux Hacks!">
+      <i class="fa fa-angle-left"></i> Previous Post
+    </a>
+    <a class="btn float-right" href="http://www.ebsantos.com/Python.html" title="Killing Python!">
+      Next Post <i class="fa fa-angle-right"></i>
+    </a>
+  </div>
+
+    <div class="addthis_relatedposts_inline">
+
+
+</article>
+
+    <footer>
+<p>&copy;  </p>
+<p>Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a></p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Edson Bernardo Santos ",
+  "url" : "http://www.ebsantos.com",
+  "image": "https://s.gravatar.com/avatar/c576edba5d85275fc58f4c183c8d9ad5?s=80",
+  "description": ""
+}
+</script>
+
+</body>
+</html>

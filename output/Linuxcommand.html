@@ -1,0 +1,387 @@
+
+<!DOCTYPE html>
+<html lang="english">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="http://www.ebsantos.com/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="http://www.ebsantos.com/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="http://www.ebsantos.com/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="http://www.ebsantos.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Edson Bernardo Santos Atom">
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-113403966-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+<meta name="author" content="Edson Santos" />
+<meta name="description" content="Linux Command Line resource kit SYSTEMCTL (RedHat/CentOS) usage To enable or disable services automatically on CentOS or RedHat Flavors. systemctl disable httpd systemctl enable docker Hostnamectl hostnamectl command : Control the system hostname. This is recommended method. nmtui nmtui command : Control the system hostname using text user interface (TUI). nmcli …" />
+<meta name="keywords" content="Linux, Unix, OS, sysadmin, devops">
+
+<meta property="og:site_name" content="Edson Bernardo Santos"/>
+<meta property="og:title" content="Unix/Linux Hacks!"/>
+<meta property="og:description" content="Linux Command Line resource kit SYSTEMCTL (RedHat/CentOS) usage To enable or disable services automatically on CentOS or RedHat Flavors. systemctl disable httpd systemctl enable docker Hostnamectl hostnamectl command : Control the system hostname. This is recommended method. nmtui nmtui command : Control the system hostname using text user interface (TUI). nmcli …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="http://www.ebsantos.com/Linuxcommand.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2018-02-02 01:20:00-06:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="http://www.ebsantos.com/author/edson-santos.html">
+<meta property="article:section" content="Technology"/>
+<meta property="article:tag" content="Linux"/>
+<meta property="article:tag" content="Unix"/>
+<meta property="article:tag" content="OS"/>
+<meta property="article:tag" content="sysadmin"/>
+<meta property="article:tag" content="devops"/>
+<meta property="og:image" content="https://s.gravatar.com/avatar/c576edba5d85275fc58f4c183c8d9ad5?s=80">
+
+  <title>Edson Bernardo Santos &ndash; Unix/Linux Hacks!</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="http://www.ebsantos.com">
+        <img src="https://s.gravatar.com/avatar/c576edba5d85275fc58f4c183c8d9ad5?s=80" alt="Edson Santos" title="Edson Santos">
+      </a>
+      <h1><a href="http://www.ebsantos.com">Edson Santos</a></h1>
+
+
+      <nav>
+        <ul class="list">
+
+          <li><a href="http://www.ebsantos.com/EdsonSantos.html" target="_blank">About</a></li>
+          <li><a href="http://kubernetes.io/" target="_blank">Kubernetes</a></li>
+          <li><a href="http://python.org/" target="_blank">Python</a></li>
+          <li><a href="https://blogs.oracle.com/weblogicserver/" target="_blank">Oracle WebLogic</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-linkedin" href="https://www.linkedin.com/in/bernardsp/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="sc-github" href="https://github.com/Eddie-Uncle" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a class="sc-twitter" href="https://twitter.com/bernardsp" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="sc-medium" href="https://medium.com/@edsonsantos_4197" target="_blank"><i class="fa fa-medium"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="http://www.ebsantos.com">Home</a>
+
+      <a href="/archives.html">Archives</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+
+      <a href="http://www.ebsantos.com/feeds/all.atom.xml">Atom</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="Linuxcommand">Unix/Linux Hacks!</h1>
+    <p>
+      Posted on Fri 02 February 2018 in <a href="http://www.ebsantos.com/category/technology.html">Technology</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <h1>Linux Command Line resource kit</h1>
+<p><strong>SYSTEMCTL (RedHat/CentOS) usage</strong> </p>
+<p>To enable or disable services automatically on CentOS or RedHat Flavors.</p>
+<div class="codehilite"><pre><span></span>systemctl disable httpd
+
+systemctl enable docker
+</pre></div>
+
+
+<p><em>Hostnamectl</em></p>
+<div class="codehilite"><pre><span></span>hostnamectl command : Control the system hostname. This is recommended method.
+</pre></div>
+
+
+<p><em>nmtui</em></p>
+<div class="codehilite"><pre><span></span>nmtui command : Control the system hostname using text user interface (TUI).
+</pre></div>
+
+
+<p><em>nmcli</em></p>
+<div class="codehilite"><pre><span></span>nmcli command : Exhibits information about your network device
+nmcli device show
+</pre></div>
+
+
+<p><em>timedatectl</em></p>
+<div class="codehilite"><pre><span></span>timedatectl command: Exhibits information about timezone and date of the system.
+</pre></div>
+
+
+<p><em>Link to change the timezone</em> (CentOS)</p>
+<p><a href="https://linuxacademy.com/blog/linux/changing-the-time-zone-in-linux-command-line/" target="_blank">Linux Academy Changing the timezone in your system</a></p>
+<h1>Security</h1>
+<p><strong>SELINUX APACHE</strong></p>
+<div class="codehilite"><pre><span></span>semanage port -l | grep http
+semanage port -a -t http_port_t -p tcp 80
+</pre></div>
+
+
+<p><strong>Working with Native CENTOS 7 Firewall</strong></p>
+<div class="codehilite"><pre><span></span>sudo firewall-cmd --zone=public --add-service=http --permanent
+sudo firewall-cmd --zone=public --list-services
+</pre></div>
+
+
+<h1>Files handling</h1>
+<p><strong>LSOF usage and examples</strong></p>
+<div class="codehilite"><pre><span></span>echo &quot;OpenSockets=&quot;$(/usr/sbin/lsof | grep -i weblogic | wc -l) &gt;   results.txt
+
+/usr/sbin/lsof | grep -i weblogic
+
+/usr/sbin/lsof | grep -i weblogic | grep -i deleted
+and then kill stuck pid&#39;s!
+
+/usr/sbin/lsof  | grep weblogic | awk &#39;{ print $3 }&#39; | sort -u
+</pre></div>
+
+
+<p><strong>How to check too many open files</strong></p>
+<div class="codehilite"><pre><span></span>lsof -u weblogic | wc -l
+
+[root@ares ~]# cat /proc/sys/fs/file-max
+65536
+
+/usr/sbin/lsof | grep weblogic | awk &#39;{ print $2 }&#39; | sort -u
+</pre></div>
+
+
+<p><strong>AWK and CUT usage</strong></p>
+<div class="codehilite"><pre><span></span>ps -ef | grep java | awk ‘{ print $2 }’ | sort -u | xargs kill -9
+
+ps - ef | grep java | cut -d &quot; &quot; -f2 | xargs kill -9
+
+ps -ef | grep weblogic | awk &#39;{ print $2 }&#39; | sort -u | xargs kill -9
+
+kill -9 $(ps auwwwx | grep -i -E &quot;jboss|weblogic|websphere&quot; | grep -v grep | awk &#39;{ print $2 }&#39;)
+</pre></div>
+
+
+<p><strong>SED</strong></p>
+<div class="codehilite"><pre><span></span>sed -i &#39;s/10.13.0.87/10.13.0.193/g&#39; *.xml
+sed -i ’s/8080/8080/g&#39; *.xml
+sed -i &#39;s/server01:10110/server02:60101/g&#39; appconfig.properties
+</pre></div>
+
+
+<p><strong>FOR LOOP USAGE</strong></p>
+<div class="codehilite"><pre><span></span>for x in `cat name_file`;do echo $x;done
+
+for x in `cat name_file`;do ssh -q $x;done
+
+for i in `cat file.txt` ; do ping -c1 $i 2&gt;&amp;1 | tee &gt;&gt; ping-    output.txt; done
+</pre></div>
+
+
+<p><strong>GREP USAGE</strong> </p>
+<div class="codehilite"><pre><span></span>grep &lt;search&gt; &lt;file&gt; | awk &#39;{print $1}&#39; &gt;&gt; &lt;new_file_output&gt;.txt
+</pre></div>
+
+
+<p><strong>DU Usage</strong></p>
+<div class="codehilite"><pre><span></span>du -sk * | sort -n
+
+du -sh /logs/* | sort -nr | grep G
+</pre></div>
+
+
+<p><strong>FIND Usage</strong></p>
+<div class="codehilite"><pre><span></span>   find . -size +50M
+   find / -type f -name &quot;index.php&quot;
+   find / -type f -name &quot;*.log&quot; -size +1M
+   find / -type f -name &quot;*.log&quot; -size +1M | xargs rm -rf {} \;
+</pre></div>
+
+
+<p><strong>Quick GREP and Tailing Logs (examples)</strong></p>
+<div class="codehilite"><pre><span></span>tail -f *.out | grep &quot;Socket read timed out&quot; | wc -l
+tail -f *.out | grep &quot;Socket read timed out&quot; --color
+tail -f *.out | grep &quot;error&quot; --color
+
+cat bwbpelsp02_01-yyyy-MM-dd-HH-mm.log | grep &quot;Socket read timed    out&quot; | wc -l
+
+tail -f *.out | egrep -i &#39;ERR|ORA-|OVERL|SUSPEN&#39;
+tail -f *.out | egrep -i &#39;STUCK&#39;
+</pre></div>
+
+
+<p><strong>THREAD COUNT BY USER</strong></p>
+<div class="codehilite"><pre><span></span>    ps -uweblogic -lf | wc -l
+    ps -uapache -lf | wc -l
+    ps -unginx -lf | wc -l
+</pre></div>
+
+
+<p><strong>Verify and count a specific java class</strong></p>
+<div class="codehilite"><pre><span></span>grep com.yourcompany.product.exception.ServiceException log.out | wc -l 
+result = 11466
+</pre></div>
+
+
+<p><strong>DMESG</strong> (old fashion)</p>
+<div class="codehilite"><pre><span></span>[root@bwsubacat04 sitecontent]# dmesg | grep file-max
+VFS: file-max limit 65536 reached
+VFS: file-max limit 65536 reached
+</pre></div>
+
+
+<p><strong>ENCODE LINUX</strong></p>
+<div class="codehilite"><pre><span></span>echo $LANG
+</pre></div>
+
+
+<p><strong>LIMITS - SO LINUX (CENTOS 6)</strong></p>
+<div class="codehilite"><pre><span></span>LIMITS
+echo &#39;###WEBLOGIC###&#39; &gt;&gt; /etc/security/limits.conf
+echo &#39;weblogic  soft nproc 20000&#39; &gt;&gt; /etc/security/limits.conf
+echo &#39;weblogic  hard nproc 20000&#39; &gt;&gt; /etc/security/limits.conf
+echo &#39;weblogic  soft nofile 65536&#39; &gt;&gt; /etc/security/limits.conf
+echo &#39;weblogic  hard nofile 65536&#39; &gt;&gt; /etc/security/limits.conf
+echo &#39;weblogic  soft memlock 16384000&#39; &gt;&gt; /etc/security/limits.conf
+echo &#39;weblogic  hard memlock 16384000&#39; &gt;&gt; /etc/security/limits.conf
+</pre></div>
+
+
+<p><strong>IFCONFIG MTU</strong></p>
+<div class="codehilite"><pre><span></span>ifconfig ib0 | grep MTU; ifconfig ib1 | grep MTU; ifconfig bond0 | grep MTU
+</pre></div>
+
+
+<p><strong>CHECK - LDAP USER</strong></p>
+<div class="codehilite"><pre><span></span>getent passwd | grep &lt;user&gt;
+</pre></div>
+
+
+<p><strong>mpstat – Processors Statistics</strong></p>
+<div class="codehilite"><pre><span></span>Using mpstat command without any option, will display the Global Average Activities by All CPUs.
+</pre></div>
+
+
+<p><strong>Basic example sudores file</strong> (there are better practices, in this case these users are allowed to excecute as root without password - General overview)</p>
+<div class="codehilite"><pre><span></span>SUDOERS
+weblogic ALL=(ALL) NOPASSWD: /bin/vi /etc/hosts
+fmwadmin ALL=(ALL) NOPASSWD: /bin/vi /etc/hosts
+</pre></div>
+
+
+<p><strong>CRONTAB</strong></p>
+<p>crontab -l (Exhibits the current crontab created)</p>
+<p>crontab -e (Create a crontab under running user)</p>
+<div class="codehilite"><pre><span></span><span class="c1"># Example of job definition:</span>
+<span class="c1"># .---------------- minute (0 - 59)</span>
+<span class="c1"># |  .------------- hour (0 - 23)</span>
+<span class="c1"># |  |  .---------- day of month (1 - 31)</span>
+<span class="c1"># |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...</span>
+<span class="c1"># |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR                  sun,mon,tue,wed,thu,fri,sat</span>
+<span class="c1"># |  |  |  |  |</span>
+<span class="c1"># *  *  *  *  * user-name command to be executed</span>
+</pre></div>
+
+
+<p><strong>Tee usage (similar to echo)</strong></p>
+<div class="codehilite"><pre><span></span>tee /etc/yum.repos.d/docker.repo &lt;&lt;-EOF
+</pre></div>
+
+
+<p><strong>Obtain PID specific application</strong></p>
+<div class="codehilite"><pre><span></span>ps aux | awk -v app=&#39;Apache&#39; &#39;$0 ~ app { print $1 }’
+</pre></div>
+
+
+<p><strong>Using GIT to pull projects</strong> </p>
+<div class="codehilite"><pre><span></span>git clone https://github.com/Bankmonitor/sample-app sample-app
+</pre></div>
+
+
+<p><strong>Working with Aliases</strong></p>
+<div class="codehilite"><pre><span></span>alias
+alias cp=&#39;cp -i&#39;
+alias egrep=&#39;egrep --color=auto&#39;
+alias fgrep=&#39;fgrep --color=auto&#39;
+alias grep=&#39;grep --color=auto&#39;
+alias l.=&#39;ls -d .* --color=auto&#39;
+alias ll=&#39;ls -l --color=auto&#39;
+alias ls=&#39;ls --color=auto&#39;
+alias mv=&#39;mv -i&#39;
+alias rm=&#39;rm -i&#39;
+alias which=&#39;alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde’
+</pre></div>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="http://www.ebsantos.com/tag/linux.html">Linux</a>
+      <a href="http://www.ebsantos.com/tag/unix.html">Unix</a>
+      <a href="http://www.ebsantos.com/tag/os.html">OS</a>
+      <a href="http://www.ebsantos.com/tag/sysadmin.html">sysadmin</a>
+      <a href="http://www.ebsantos.com/tag/devops.html">devops</a>
+    </p>
+  </div>
+
+
+  <div class="neighbors">
+    <a class="btn float-left" href="http://www.ebsantos.com/ApacheNginx.html" title="WebServers">
+      <i class="fa fa-angle-left"></i> Previous Post
+    </a>
+    <a class="btn float-right" href="http://www.ebsantos.com/Dockercommand.html" title="The Docker Ninja!">
+      Next Post <i class="fa fa-angle-right"></i>
+    </a>
+  </div>
+
+    <div class="addthis_relatedposts_inline">
+
+
+</article>
+
+    <footer>
+<p>&copy;  </p>
+<p>Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a></p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Edson Bernardo Santos ",
+  "url" : "http://www.ebsantos.com",
+  "image": "https://s.gravatar.com/avatar/c576edba5d85275fc58f4c183c8d9ad5?s=80",
+  "description": ""
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="english">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="http://www.ebsantos.com/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="http://www.ebsantos.com/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="http://www.ebsantos.com/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="http://www.ebsantos.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Edson Bernardo Santos Atom">
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-113403966-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+<meta name="author" content="Edson Santos" />
+<meta name="description" content="Python How-to install Python 3.6.1 on CentOS 7 Find below the instructions: How-to install Python 3.6.1 on CentOS 7 - by Jani Karhunen Python Simple HTTP Server python -m SimpleHTTPServer 8080 (python 2x) python -m http.server (python 3x) The example above is very useful if you …" />
+<meta name="keywords" content="Linux, Unix, OS, sysadmin, devops, Python, Code">
+
+<meta property="og:site_name" content="Edson Bernardo Santos"/>
+<meta property="og:title" content="Killing Python!"/>
+<meta property="og:description" content="Python How-to install Python 3.6.1 on CentOS 7 Find below the instructions: How-to install Python 3.6.1 on CentOS 7 - by Jani Karhunen Python Simple HTTP Server python -m SimpleHTTPServer 8080 (python 2x) python -m http.server (python 3x) The example above is very useful if you …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="http://www.ebsantos.com/Python.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2018-02-07 05:00:00-06:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="http://www.ebsantos.com/author/edson-santos.html">
+<meta property="article:section" content="Technology"/>
+<meta property="article:tag" content="Linux"/>
+<meta property="article:tag" content="Unix"/>
+<meta property="article:tag" content="OS"/>
+<meta property="article:tag" content="sysadmin"/>
+<meta property="article:tag" content="devops"/>
+<meta property="article:tag" content="Python"/>
+<meta property="article:tag" content="Code"/>
+<meta property="og:image" content="https://s.gravatar.com/avatar/c576edba5d85275fc58f4c183c8d9ad5?s=80">
+
+  <title>Edson Bernardo Santos &ndash; Killing Python!</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="http://www.ebsantos.com">
+        <img src="https://s.gravatar.com/avatar/c576edba5d85275fc58f4c183c8d9ad5?s=80" alt="Edson Santos" title="Edson Santos">
+      </a>
+      <h1><a href="http://www.ebsantos.com">Edson Santos</a></h1>
+
+
+      <nav>
+        <ul class="list">
+
+          <li><a href="http://www.ebsantos.com/EdsonSantos.html" target="_blank">About</a></li>
+          <li><a href="http://kubernetes.io/" target="_blank">Kubernetes</a></li>
+          <li><a href="http://python.org/" target="_blank">Python</a></li>
+          <li><a href="https://blogs.oracle.com/weblogicserver/" target="_blank">Oracle WebLogic</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-linkedin" href="https://www.linkedin.com/in/bernardsp/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="sc-github" href="https://github.com/Eddie-Uncle" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a class="sc-twitter" href="https://twitter.com/bernardsp" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="sc-medium" href="https://medium.com/@edsonsantos_4197" target="_blank"><i class="fa fa-medium"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="http://www.ebsantos.com">Home</a>
+
+      <a href="/archives.html">Archives</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+
+      <a href="http://www.ebsantos.com/feeds/all.atom.xml">Atom</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="Python">Killing Python!</h1>
+    <p>
+      Posted on Wed 07 February 2018 in <a href="http://www.ebsantos.com/category/technology.html">Technology</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <h1>Python</h1>
+<p><strong>How-to install Python 3.6.1 on CentOS 7</strong></p>
+<p>Find below the instructions:</p>
+<p><a href="https://janikarhunen.fi/how-to-install-python-3-6-1-on-centos-7.html/" target="_blank">How-to install Python 3.6.1 on CentOS 7 - by Jani Karhunen</a></p>
+<p><strong>Python Simple HTTP Server</strong></p>
+<div class="codehilite"><pre><span></span>python -m SimpleHTTPServer 8080 (python 2x)
+python -m http.server (python 3x)
+</pre></div>
+
+
+<p>The example above is very useful if you want to open temporarily logs or HTTP connection to your clients". </p>
+<p><strong>Practice Python with Real examples</strong></p>
+<p>Find below real world examples with python</p>
+<p><a href="https://github.com/Eddie-Uncle/practice_python/" target="_blank">Git Hub Uncle Eddie - Practice Python</a></p>
+<p>Additionally, <a href="https://www.cleverprogrammer.com/" target="_blank">Clever Programmer Page</a>, definitely, one of the best resources when it comes up with Python. </p>
+<p>Cheers.</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="http://www.ebsantos.com/tag/linux.html">Linux</a>
+      <a href="http://www.ebsantos.com/tag/unix.html">Unix</a>
+      <a href="http://www.ebsantos.com/tag/os.html">OS</a>
+      <a href="http://www.ebsantos.com/tag/sysadmin.html">sysadmin</a>
+      <a href="http://www.ebsantos.com/tag/devops.html">devops</a>
+      <a href="http://www.ebsantos.com/tag/python.html">Python</a>
+      <a href="http://www.ebsantos.com/tag/code.html">Code</a>
+    </p>
+  </div>
+
+
+  <div class="neighbors">
+    <a class="btn float-left" href="http://www.ebsantos.com/Dockercommand.html" title="The Docker Ninja!">
+      <i class="fa fa-angle-left"></i> Previous Post
+    </a>
+    <a class="btn float-right" href="http://www.ebsantos.com/Terraform.html" title="Terraform!">
+      Next Post <i class="fa fa-angle-right"></i>
+    </a>
+  </div>
+
+    <div class="addthis_relatedposts_inline">
+
+
+</article>
+
+    <footer>
+<p>&copy;  </p>
+<p>Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a></p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Edson Bernardo Santos ",
+  "url" : "http://www.ebsantos.com",
+  "image": "https://s.gravatar.com/avatar/c576edba5d85275fc58f4c183c8d9ad5?s=80",
+  "description": ""
+}
+</script>
+
+</body>
+</html>

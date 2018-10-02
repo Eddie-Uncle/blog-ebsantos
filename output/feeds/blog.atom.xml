@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Edson Bernardo Santos - Blog</title><link href="http://www.ebsantos.com/" rel="alternate"></link><link href="http://www.ebsantos.com/feeds/blog.atom.xml" rel="self"></link><id>http://www.ebsantos.com/</id><updated>2018-04-09T08:00:00-06:00</updated><entry><title>About me!!</title><link href="http://www.ebsantos.com/EdsonSantos.html" rel="alternate"></link><published>2018-04-09T08:00:00-06:00</published><updated>2018-04-09T08:00:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-04-09:/EdsonSantos.html</id><summary type="html">&lt;p&gt;Hi there, I'm &lt;a href="https://www.linkedin.com/in/bernardsp/" target="_blank"&gt;Edson Bernardo&lt;/a&gt; and I've been working in IT industry for the past 17 years, and I am very
+proud to have known a lot of good people in this journey, it's been interesting.&lt;/p&gt;
+&lt;p&gt;The idea of the blog is to share knowledge, learn and improve skills, hacks …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi there, I'm &lt;a href="https://www.linkedin.com/in/bernardsp/" target="_blank"&gt;Edson Bernardo&lt;/a&gt; and I've been working in IT industry for the past 17 years, and I am very
+proud to have known a lot of good people in this journey, it's been interesting.&lt;/p&gt;
+&lt;p&gt;The idea of the blog is to share knowledge, learn and improve skills, hacks, and everything related to life and career.&lt;/p&gt;
+&lt;p&gt;This year, I intend to learn more about blockchain technology.&lt;/p&gt;
+&lt;p&gt;These are technologies that I have worked and/or currently, I am working with:&lt;/p&gt;
+&lt;h1&gt;&lt;strong&gt;Oracle Products&lt;/strong&gt;&lt;/h1&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;WebLogic Server
+Oracle SOA Suite (OSB, BPEL, BPM)
+Oracle Database (Enterprise and XE)
+Oracle Enterprise Manager
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;IaaS&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;I've been working massively with AWS, however, another cloud providers usually have the same concepts with different offerings. All you need to do is emphasize what is important to run your business and your needs and make the right choice!&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;AWS - Amazon Web Services,
+Microsoft - Azure
+GCP - Google Cloud
+Digital Ocean
+Oracle Cloud
+IBM - BlueMix
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;Containers&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;(Orchestration, Scheduling, and related technologies)&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;DockerCE &amp;amp;&amp;amp; EE plus Swarm
+Kubernetes
+Openshift
+Rancher (You should try this one)...
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;Virtualization&lt;/strong&gt;&lt;/h1&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Vmware vSphere
+VirtualBox
+Vagrant (hashicorp)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;CI/CD and Cloud Provisioning Tools&lt;/strong&gt;&lt;/h1&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Jenkins
+Ansible
+Puppet
+Terraform
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;Toolchain&lt;/strong&gt;&lt;/h1&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Git for Version Control (SCM)
+Slack (Messaging integrations and chatbots)
+Grammarly (great for writing, it makes me a happier writer)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;Search &amp;amp; Data manipulation tools&lt;/strong&gt;&lt;/h1&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Elastic Search
+Splunk
+Apache Solr
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;Programming &amp;amp; Scripting&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;I'm not a developer indeed, but I like to code.&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Python
+Shell Script
+Java
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;CMS&lt;/strong&gt;&lt;/h1&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;WordPress
+MS SharePoint
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;My thoughts:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;For one, self-criticism. There are literally millions of far better writers than I will ever be. English is not my 1st language, so is my writing sufficiently readable, enjoyable even?&lt;/p&gt;
+&lt;p&gt;Can I find some original topics to cover, which don’t already have tons of brilliant coverage on other blogs or other mediums? And the list could go on forever…&lt;/p&gt;
+&lt;p&gt;But.&lt;/p&gt;
+&lt;p&gt;If I don’t expose my writing to critics, how will I get better? Who can give my point of view to topics maybe already covered? Could I even add something new to previous views?&lt;/p&gt;
+&lt;p&gt;Just to finish, I have some hobbies like music, writing, and photography! Pretty much that's it. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you wish, you can reach me out anytime:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:bernardsp@gmail.com"&gt;bernardsp@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;em&gt;"Enjoy the life, you just live once"&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Unfortunately, in this crazy and litigous world we now live in, one has to keep themselves covered so here is my disclaimer.&lt;/p&gt;
+&lt;p&gt;To the best of my knowledge, the material contained within these pages is correct. I make no guarantees however. 
+I also take no responsibility for any damage you may do based upon knowledge gained from here (even though the chances of doing so are relatively small at best). 
+Please use common sense when using any of the knowledge and skills gained from using this material.&lt;/p&gt;</content><category term="About"></category><category term="Writer"></category><category term="Random"></category></entry></feed>
