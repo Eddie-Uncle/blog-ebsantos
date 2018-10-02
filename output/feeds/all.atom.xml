@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Edson Bernardo Santos</title><link href="http://www.ebsantos.com/" rel="alternate"></link><link href="http://www.ebsantos.com/feeds/all.atom.xml" rel="self"></link><id>http://www.ebsantos.com/</id><updated>2018-04-09T08:00:00-06:00</updated><entry><title>About me!!</title><link href="http://www.ebsantos.com/EdsonSantos.html" rel="alternate"></link><published>2018-04-09T08:00:00-06:00</published><updated>2018-04-09T08:00:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-04-09:/EdsonSantos.html</id><summary type="html">&lt;p&gt;Hi there, I'm &lt;a href="https://www.linkedin.com/in/bernardsp/" target="_blank"&gt;Edson Bernardo&lt;/a&gt; and I've been working in IT industry for the past 17 years, and I am very
+proud to have known a lot of good people in this journey, it's been interesting.&lt;/p&gt;
+&lt;p&gt;The idea of the blog is to share knowledge, learn and improve skills, hacks …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi there, I'm &lt;a href="https://www.linkedin.com/in/bernardsp/" target="_blank"&gt;Edson Bernardo&lt;/a&gt; and I've been working in IT industry for the past 17 years, and I am very
+proud to have known a lot of good people in this journey, it's been interesting.&lt;/p&gt;
+&lt;p&gt;The idea of the blog is to share knowledge, learn and improve skills, hacks, and everything related to life and career.&lt;/p&gt;
+&lt;p&gt;This year, I intend to learn more about blockchain technology.&lt;/p&gt;
+&lt;p&gt;These are technologies that I have worked and/or currently, I am working with:&lt;/p&gt;
+&lt;h1&gt;&lt;strong&gt;Oracle Products&lt;/strong&gt;&lt;/h1&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;WebLogic Server
+Oracle SOA Suite (OSB, BPEL, BPM)
+Oracle Database (Enterprise and XE)
+Oracle Enterprise Manager
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;IaaS&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;I've been working massively with AWS, however, another cloud providers usually have the same concepts with different offerings. All you need to do is emphasize what is important to run your business and your needs and make the right choice!&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;AWS - Amazon Web Services,
+Microsoft - Azure
+GCP - Google Cloud
+Digital Ocean
+Oracle Cloud
+IBM - BlueMix
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;Containers&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;(Orchestration, Scheduling, and related technologies)&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;DockerCE &amp;amp;&amp;amp; EE plus Swarm
+Kubernetes
+Openshift
+Rancher (You should try this one)...
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;Virtualization&lt;/strong&gt;&lt;/h1&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Vmware vSphere
+VirtualBox
+Vagrant (hashicorp)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;CI/CD and Cloud Provisioning Tools&lt;/strong&gt;&lt;/h1&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Jenkins
+Ansible
+Puppet
+Terraform
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;Toolchain&lt;/strong&gt;&lt;/h1&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Git for Version Control (SCM)
+Slack (Messaging integrations and chatbots)
+Grammarly (great for writing, it makes me a happier writer)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;Search &amp;amp; Data manipulation tools&lt;/strong&gt;&lt;/h1&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Elastic Search
+Splunk
+Apache Solr
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;Programming &amp;amp; Scripting&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;I'm not a developer indeed, but I like to code.&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Python
+Shell Script
+Java
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;CMS&lt;/strong&gt;&lt;/h1&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;WordPress
+MS SharePoint
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;My thoughts:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;For one, self-criticism. There are literally millions of far better writers than I will ever be. English is not my 1st language, so is my writing sufficiently readable, enjoyable even?&lt;/p&gt;
+&lt;p&gt;Can I find some original topics to cover, which don’t already have tons of brilliant coverage on other blogs or other mediums? And the list could go on forever…&lt;/p&gt;
+&lt;p&gt;But.&lt;/p&gt;
+&lt;p&gt;If I don’t expose my writing to critics, how will I get better? Who can give my point of view to topics maybe already covered? Could I even add something new to previous views?&lt;/p&gt;
+&lt;p&gt;Just to finish, I have some hobbies like music, writing, and photography! Pretty much that's it. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you wish, you can reach me out anytime:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:bernardsp@gmail.com"&gt;bernardsp@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;em&gt;"Enjoy the life, you just live once"&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Unfortunately, in this crazy and litigous world we now live in, one has to keep themselves covered so here is my disclaimer.&lt;/p&gt;
+&lt;p&gt;To the best of my knowledge, the material contained within these pages is correct. I make no guarantees however. 
+I also take no responsibility for any damage you may do based upon knowledge gained from here (even though the chances of doing so are relatively small at best). 
+Please use common sense when using any of the knowledge and skills gained from using this material.&lt;/p&gt;</content><category term="About"></category><category term="Writer"></category><category term="Random"></category></entry><entry><title>Terraform!</title><link href="http://www.ebsantos.com/Terraform.html" rel="alternate"></link><published>2018-02-08T11:20:00-06:00</published><updated>2018-02-08T11:20:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-02-08:/Terraform.html</id><summary type="html">&lt;h1&gt;Terraform apply&lt;/h1&gt;
+&lt;p&gt;Find the &lt;strong&gt;link&lt;/strong&gt; below, Terraform forked recipe to create basic EC2 instances on AWS.&lt;/p&gt;
+&lt;p&gt;Very handy in order to create easily and straightforward cloud instances.&lt;/p&gt;
+&lt;p&gt;If you dig deeper, you'll find &lt;strong&gt;main.tf&lt;/strong&gt; and &lt;strong&gt;variables.tf&lt;/strong&gt; and all you have to do is a change in order to …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Terraform apply&lt;/h1&gt;
+&lt;p&gt;Find the &lt;strong&gt;link&lt;/strong&gt; below, Terraform forked recipe to create basic EC2 instances on AWS.&lt;/p&gt;
+&lt;p&gt;Very handy in order to create easily and straightforward cloud instances.&lt;/p&gt;
+&lt;p&gt;If you dig deeper, you'll find &lt;strong&gt;main.tf&lt;/strong&gt; and &lt;strong&gt;variables.tf&lt;/strong&gt; and all you have to do is a change in order to fit your environment. &lt;/p&gt;
+&lt;p&gt;You can create, refresh, destroy instances at a glance.&lt;/p&gt;
+&lt;p&gt;Feel free and check this out: &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Eddie-Uncle/terraform-aws-ec2-instance/" target="_blank"&gt;Uncle Eddie - Terraform EC2 Instance&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cheers.&lt;/p&gt;
+&lt;p&gt;:)&lt;/p&gt;</content><category term="DevOps"></category><category term="Terraform"></category></entry><entry><title>Killing Python!</title><link href="http://www.ebsantos.com/Python.html" rel="alternate"></link><published>2018-02-07T05:00:00-06:00</published><updated>2018-02-07T05:00:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-02-07:/Python.html</id><summary type="html">&lt;h1&gt;Python&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;How-to install Python 3.6.1 on CentOS 7&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Find below the instructions:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://janikarhunen.fi/how-to-install-python-3-6-1-on-centos-7.html/" target="_blank"&gt;How-to install Python 3.6.1 on CentOS 7 - by Jani Karhunen&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python Simple HTTP Server&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python -m SimpleHTTPServer 8080 (python 2x)
+python -m http.server (python 3x)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The example above is very useful if you …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Python&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;How-to install Python 3.6.1 on CentOS 7&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Find below the instructions:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://janikarhunen.fi/how-to-install-python-3-6-1-on-centos-7.html/" target="_blank"&gt;How-to install Python 3.6.1 on CentOS 7 - by Jani Karhunen&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python Simple HTTP Server&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python -m SimpleHTTPServer 8080 (python 2x)
+python -m http.server (python 3x)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The example above is very useful if you want to open temporarily logs or HTTP connection to your clients". &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Practice Python with Real examples&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Find below real world examples with python&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Eddie-Uncle/practice_python/" target="_blank"&gt;Git Hub Uncle Eddie - Practice Python&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Additionally, &lt;a href="https://www.cleverprogrammer.com/" target="_blank"&gt;Clever Programmer Page&lt;/a&gt;, definitely, one of the best resources when it comes up with Python. &lt;/p&gt;
+&lt;p&gt;Cheers.&lt;/p&gt;</content><category term="Linux"></category><category term="Unix"></category><category term="OS"></category><category term="sysadmin"></category><category term="devops"></category><category term="Python"></category><category term="Code"></category></entry><entry><title>The Docker Ninja!</title><link href="http://www.ebsantos.com/Dockercommand.html" rel="alternate"></link><published>2018-02-07T01:50:00-06:00</published><updated>2018-02-07T01:50:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-02-07:/Dockercommand.html</id><summary type="html">&lt;h1&gt;Docker Resource Kit&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Installing Docker&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;RedHat --&amp;gt; yum -y install docker;
+Ubuntu --&amp;gt; apt install docker;
+MacOS --&amp;gt; brew install docker;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Istalling Docker Compose&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Find below the link with instructions:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://docs.docker.com/compose/install/" target="_blank"&gt;Docker Compose Install&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Important tip, always check if you have your Docker Repo updated&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/etc/yum.repos.d/docker.repo    (RHEL)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Containers - Downloading …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Docker Resource Kit&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Installing Docker&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;RedHat --&amp;gt; yum -y install docker;
+Ubuntu --&amp;gt; apt install docker;
+MacOS --&amp;gt; brew install docker;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Istalling Docker Compose&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Find below the link with instructions:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://docs.docker.com/compose/install/" target="_blank"&gt;Docker Compose Install&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Important tip, always check if you have your Docker Repo updated&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/etc/yum.repos.d/docker.repo    (RHEL)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Containers - Downloading Images and Creating containers&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;docker run -dit ubuntu:latest
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Containers operational cycle&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;docker ps -a (List all containers created)
+docker start $(docker ps -a -q)
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Containers = per Status&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;docker start $(docker ps -aq -f status=exited)
+docker rm $(docker ps -aq -f status=exited)
+sudo docker ps -a | grep exited | cut -d &amp;#39; &amp;#39; -f 1 | xargs sudo docker rm
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Docker  removing Images - Docker rmi&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Usage:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;docker rmi $( sudo docker images | grep ‘&amp;#39;image_name&amp;#39;&amp;#39; | tr -s &amp;#39; &amp;#39; | cut -d &amp;#39; &amp;#39; -f 3)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Images = grep string gcr = google&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;docker rmi $( docker images | grep &amp;#39;gcr&amp;#39; | tr -s &amp;#39; &amp;#39; | cut -d &amp;#39; &amp;#39; -f 3)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Images = grep string doc = docker&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;docker rmi $( docker images | grep ‘docker&amp;#39; | tr -s &amp;#39; &amp;#39; | cut -d &amp;#39; &amp;#39; -f 3)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Saving Images&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;COMMIT savings into an image&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;First, create a container from any pulled image!
+
+docker run -it &amp;#39;base_image&amp;#39; /bin/bash
+
+Make the necessary changes (Install updates and softwares you wish)
+
+Example: 
+yum -y upgrade &amp;amp;&amp;amp; yum -y update
+yum install httpd (RHEL)
+RUN apt-get update &amp;amp;&amp;amp; apt-get install -y props (Ubuntu)
+RUN apt-get update &amp;amp;&amp;amp; apt-get install -y iputils-ping (Ubuntu)
+
+Commit it with a new name Image.
+
+docker commit &amp;#39;hash tag of running container&amp;#39; new_image
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Installing Products (images) with Docker&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;WordPress Stack&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;mariaDB (SQL Database)&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;docker run -e MYSQL_ROOT_PASSWORD=mariadb -e MYSQL_DATABASE=wordpress --name wordpressdb -v “$PWD/database&amp;quot;:/var/lib/mysql -d mariadb:latest
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Wordpress&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;docker run -e WORDPRESS_DB_PASSWORD=mariadb --name wordpress --link wordpressdb:mysql -p 0.0.0.0:80:80 -v &amp;quot;$PWD/html&amp;quot;:/var/www/html -d wordpress
+
+variables
+MYSQL_ROOT_PASSWORD=&amp;#39;db_password&amp;#39;
+MYSQL_DATABASE=&amp;#39;name_database&amp;#39;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Splunk&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Example1&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+&lt;span class="n"&gt;docker&lt;/span&gt; &lt;span class="n"&gt;run&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt; &lt;span class="n"&gt;splunkwls&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="n"&gt;hostname&lt;/span&gt; &lt;span class="n"&gt;splunk01&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt; &lt;span class="mi"&gt;8000&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;8000&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;SPLUNK_START_ARGS=--accept-license&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;v&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;$PWD/opt&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;:/&lt;/span&gt;&lt;span class="n"&gt;opt&lt;/span&gt;&lt;span class="sr"&gt;/splunk/var splunk/s&lt;/span&gt;&lt;span class="n"&gt;plunk&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="n"&gt;latest&lt;/span&gt;
+
+&lt;span class="n"&gt;Example2&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+&lt;span class="n"&gt;docker&lt;/span&gt; &lt;span class="n"&gt;run&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt; &lt;span class="n"&gt;splunkwls&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="n"&gt;hostname&lt;/span&gt; &lt;span class="n"&gt;splunk01&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt; &lt;span class="mi"&gt;8000&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;8000&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;SPLUNK_START_ARGS=--accept-license&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;v&lt;/span&gt; &lt;span class="sr"&gt;/opt/oracle/Middleware/domains/snake01/servers:/mnt/splunk splunk/s&lt;/span&gt;&lt;span class="n"&gt;plunk&lt;/span&gt;
+
+&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;passwd&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;admin&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;admin01&lt;/span&gt;
+
+&lt;span class="n"&gt;Example&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+&lt;span class="n"&gt;Vars&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sr"&gt;/host/directory:/container/&lt;/span&gt;&lt;span class="n"&gt;directory&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;HTTPD - APACHE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;DOCKER HTTPD IMAGE - as reference (only)&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;docker pull http
+
+docker run -dit --name my-apache-app -v &amp;quot;$PWD&amp;quot;:/usr/local/apache2/htdocs/ -p 8000 httpd:2.4
+
+docker run -dit —name my-apache-app -v &amp;quot;$PWD&amp;quot;:/usr/local/apache2/htdocs/ -p 192.168.1.4:80:9000 httpd:2.4
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;RANCHER&lt;/strong&gt; --&amp;gt; Amazing Product!&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;docker run -d --restart=unless-stopped -p 8080:8080 rancher/server:stable
+
+docker run -d --restart=unless-stopped -p 8080:8080 rancher/server:preview
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;UBUNTU&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;docker pull ubuntu:latest
+
+docker run -it -p 8080:80 -p 4443:443 —name &amp;#39;containername&amp;#39; &amp;#39;containerimage&amp;#39; ubuntu:latest /bin/bash
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Jira - Docker&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;https://hub.docker.com/r/blacklabelops/jira/
+
+docker run -d -p 8080:8080 -v jiravolume:/var/atlassian/jira --name bernardojira blacklabelops/jira
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;DOCKER WEBLOGIC 12.2.1.3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Copy and paste below:&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;docker run -d  —name b-001wls -p 7001:7001 -e ADMIN_USERNAME=weblogic -e ADMIN_PASSWORD=welcome1 -e DOMAIN_HOME=/u01/oracle/user_projects/domains/b001_domain -e DOMAIN_NAME=b001_domain oracle/weblogic:12.2.1.3-generic
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;DOCKER &amp;amp; RED HAT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Installing DOCKER CE (Community Edition on Red HAT Enterprise)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Container SELINUX&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;yum install -y http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.33-1.git86f33cd.el7.noarch.rpm
+
+Package Name: container-selinux-2.33-1.git86f33cd.el7.noarch.rpm
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;DOCKER MACHINE&lt;/strong&gt;
+Driver: VirtualBox (Oracle)&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;docker-machine create -d virtualbox rancher01
+
+docker-machine create -d &amp;#39;drive : virtualbox, vmware, cloud &amp;#39;virtual machine name&amp;#39;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;SysDig&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;docker run -d --name sysdig-agent --privileged --net host --pid host -e ACCESS_KEY=YOUR_ACCESS_KEY -v /var/run/docker.sock:/host/var/run/docker.sock -v /dev:/host/dev -v /proc:/host/proc:ro -v /boot:/host/boot:ro -v /lib/modules:/host/lib/modules:ro -v /usr:/host/usr:ro sysdig/agent&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Docker inspect feature&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;docker inspect &amp;#39;CONTAINER ID&amp;#39; | grep -w &amp;quot;IPAddress&amp;quot; | awk &amp;#39;{ print $2 }&amp;#39; | head -n 1 | cut -d &amp;quot;,&amp;quot; -f1
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Troubleshooting Docker&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Get systemd (RedHat/CentOS) working properly after import from Docker Image&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you've been running into problems to use &lt;strong&gt;systemd&lt;/strong&gt; on centOS 7 images from docker hub or any other container repository, you might would like to get rid of them, right?&lt;/p&gt;
+&lt;p&gt;Find below the the steps you should use to fix it.&lt;/p&gt;
+&lt;p&gt;You must have pulled off from an image of Docker hub, I'd suggest the link below:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hub.docker.com/r/_/centos/" target="_blank"&gt;Official Docker Hub CentOS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Once you checked, you should type the command in your shell or command prompt just in case using Windows OS&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;docker pull centos&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;So, once you have done that, you have downloaded the centos image from docker hub, now you must run your container like this:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;docker run -dit --name 'container_name' -p 'hostipmachine':80:80 --privileged -ti -e "container=docker" -v /sys/fs/cgroup:/sys/fs/cgroup -v "$PWD/html":/var/www/html dockerimage:latest /usr/sbin/init&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Basically, you are informing the container type (which is docker) and after that, you should able to use systemd in your container. Additionally, in the example above, we are setting the port -p and sharing the volume between the host and the container&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Go ahead and take a look yourself at DockerFiles, Docker Swarm, Docker Compose&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cheers...&lt;/p&gt;</content><category term="Devops"></category><category term="Containers"></category><category term="SysOps"></category></entry><entry><title>Unix/Linux Hacks!</title><link href="http://www.ebsantos.com/Linuxcommand.html" rel="alternate"></link><published>2018-02-02T01:20:00-06:00</published><updated>2018-02-02T01:20:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-02-02:/Linuxcommand.html</id><summary type="html">&lt;h1&gt;Linux Command Line resource kit&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;SYSTEMCTL (RedHat/CentOS) usage&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;To enable or disable services automatically on CentOS or RedHat Flavors.&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;systemctl disable httpd
+
+systemctl enable docker
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Hostnamectl&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;hostnamectl command : Control the system hostname. This is recommended method.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;nmtui&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;nmtui command : Control the system hostname using text user interface (TUI).
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;nmcli …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Linux Command Line resource kit&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;SYSTEMCTL (RedHat/CentOS) usage&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;To enable or disable services automatically on CentOS or RedHat Flavors.&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;systemctl disable httpd
+
+systemctl enable docker
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Hostnamectl&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;hostnamectl command : Control the system hostname. This is recommended method.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;nmtui&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;nmtui command : Control the system hostname using text user interface (TUI).
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;nmcli&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;nmcli command : Exhibits information about your network device
+nmcli device show
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;timedatectl&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;timedatectl command: Exhibits information about timezone and date of the system.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Link to change the timezone&lt;/em&gt; (CentOS)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://linuxacademy.com/blog/linux/changing-the-time-zone-in-linux-command-line/" target="_blank"&gt;Linux Academy Changing the timezone in your system&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;Security&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;SELINUX APACHE&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;semanage port -l | grep http
+semanage port -a -t http_port_t -p tcp 80
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Working with Native CENTOS 7 Firewall&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo firewall-cmd --zone=public --add-service=http --permanent
+sudo firewall-cmd --zone=public --list-services
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;Files handling&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;LSOF usage and examples&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo &amp;quot;OpenSockets=&amp;quot;$(/usr/sbin/lsof | grep -i weblogic | wc -l) &amp;gt;   results.txt
+
+/usr/sbin/lsof | grep -i weblogic
+
+/usr/sbin/lsof | grep -i weblogic | grep -i deleted
+and then kill stuck pid&amp;#39;s!
+
+/usr/sbin/lsof  | grep weblogic | awk &amp;#39;{ print $3 }&amp;#39; | sort -u
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;How to check too many open files&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;lsof -u weblogic | wc -l
+
+[root@ares ~]# cat /proc/sys/fs/file-max
+65536
+
+/usr/sbin/lsof | grep weblogic | awk &amp;#39;{ print $2 }&amp;#39; | sort -u
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;AWK and CUT usage&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ps -ef | grep java | awk ‘{ print $2 }’ | sort -u | xargs kill -9
+
+ps - ef | grep java | cut -d &amp;quot; &amp;quot; -f2 | xargs kill -9
+
+ps -ef | grep weblogic | awk &amp;#39;{ print $2 }&amp;#39; | sort -u | xargs kill -9
+
+kill -9 $(ps auwwwx | grep -i -E &amp;quot;jboss|weblogic|websphere&amp;quot; | grep -v grep | awk &amp;#39;{ print $2 }&amp;#39;)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;SED&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sed -i &amp;#39;s/10.13.0.87/10.13.0.193/g&amp;#39; *.xml
+sed -i ’s/8080/8080/g&amp;#39; *.xml
+sed -i &amp;#39;s/server01:10110/server02:60101/g&amp;#39; appconfig.properties
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;FOR LOOP USAGE&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;for x in `cat name_file`;do echo $x;done
+
+for x in `cat name_file`;do ssh -q $x;done
+
+for i in `cat file.txt` ; do ping -c1 $i 2&amp;gt;&amp;amp;1 | tee &amp;gt;&amp;gt; ping-    output.txt; done
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;GREP USAGE&lt;/strong&gt; &lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;grep &amp;lt;search&amp;gt; &amp;lt;file&amp;gt; | awk &amp;#39;{print $1}&amp;#39; &amp;gt;&amp;gt; &amp;lt;new_file_output&amp;gt;.txt
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;DU Usage&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;du -sk * | sort -n
+
+du -sh /logs/* | sort -nr | grep G
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;FIND Usage&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;   find . -size +50M
+   find / -type f -name &amp;quot;index.php&amp;quot;
+   find / -type f -name &amp;quot;*.log&amp;quot; -size +1M
+   find / -type f -name &amp;quot;*.log&amp;quot; -size +1M | xargs rm -rf {} \;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Quick GREP and Tailing Logs (examples)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;tail -f *.out | grep &amp;quot;Socket read timed out&amp;quot; | wc -l
+tail -f *.out | grep &amp;quot;Socket read timed out&amp;quot; --color
+tail -f *.out | grep &amp;quot;error&amp;quot; --color
+
+cat bwbpelsp02_01-yyyy-MM-dd-HH-mm.log | grep &amp;quot;Socket read timed    out&amp;quot; | wc -l
+
+tail -f *.out | egrep -i &amp;#39;ERR|ORA-|OVERL|SUSPEN&amp;#39;
+tail -f *.out | egrep -i &amp;#39;STUCK&amp;#39;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;THREAD COUNT BY USER&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    ps -uweblogic -lf | wc -l
+    ps -uapache -lf | wc -l
+    ps -unginx -lf | wc -l
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Verify and count a specific java class&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;grep com.yourcompany.product.exception.ServiceException log.out | wc -l 
+result = 11466
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;DMESG&lt;/strong&gt; (old fashion)&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[root@bwsubacat04 sitecontent]# dmesg | grep file-max
+VFS: file-max limit 65536 reached
+VFS: file-max limit 65536 reached
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;ENCODE LINUX&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo $LANG
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;LIMITS - SO LINUX (CENTOS 6)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;LIMITS
+echo &amp;#39;###WEBLOGIC###&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
+echo &amp;#39;weblogic  soft nproc 20000&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
+echo &amp;#39;weblogic  hard nproc 20000&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
+echo &amp;#39;weblogic  soft nofile 65536&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
+echo &amp;#39;weblogic  hard nofile 65536&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
+echo &amp;#39;weblogic  soft memlock 16384000&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
+echo &amp;#39;weblogic  hard memlock 16384000&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;IFCONFIG MTU&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ifconfig ib0 | grep MTU; ifconfig ib1 | grep MTU; ifconfig bond0 | grep MTU
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;CHECK - LDAP USER&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;getent passwd | grep &amp;lt;user&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;mpstat – Processors Statistics&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Using mpstat command without any option, will display the Global Average Activities by All CPUs.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Basic example sudores file&lt;/strong&gt; (there are better practices, in this case these users are allowed to excecute as root without password - General overview)&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;SUDOERS
+weblogic ALL=(ALL) NOPASSWD: /bin/vi /etc/hosts
+fmwadmin ALL=(ALL) NOPASSWD: /bin/vi /etc/hosts
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;CRONTAB&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;crontab -l (Exhibits the current crontab created)&lt;/p&gt;
+&lt;p&gt;crontab -e (Create a crontab under running user)&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Example of job definition:&lt;/span&gt;
+&lt;span class="c1"&gt;# .---------------- minute (0 - 59)&lt;/span&gt;
+&lt;span class="c1"&gt;# |  .------------- hour (0 - 23)&lt;/span&gt;
+&lt;span class="c1"&gt;# |  |  .---------- day of month (1 - 31)&lt;/span&gt;
+&lt;span class="c1"&gt;# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...&lt;/span&gt;
+&lt;span class="c1"&gt;# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR                  sun,mon,tue,wed,thu,fri,sat&lt;/span&gt;
+&lt;span class="c1"&gt;# |  |  |  |  |&lt;/span&gt;
+&lt;span class="c1"&gt;# *  *  *  *  * user-name command to be executed&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Tee usage (similar to echo)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;tee /etc/yum.repos.d/docker.repo &amp;lt;&amp;lt;-EOF
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Obtain PID specific application&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ps aux | awk -v app=&amp;#39;Apache&amp;#39; &amp;#39;$0 ~ app { print $1 }’
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Using GIT to pull projects&lt;/strong&gt; &lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone https://github.com/Bankmonitor/sample-app sample-app
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Working with Aliases&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;alias
+alias cp=&amp;#39;cp -i&amp;#39;
+alias egrep=&amp;#39;egrep --color=auto&amp;#39;
+alias fgrep=&amp;#39;fgrep --color=auto&amp;#39;
+alias grep=&amp;#39;grep --color=auto&amp;#39;
+alias l.=&amp;#39;ls -d .* --color=auto&amp;#39;
+alias ll=&amp;#39;ls -l --color=auto&amp;#39;
+alias ls=&amp;#39;ls --color=auto&amp;#39;
+alias mv=&amp;#39;mv -i&amp;#39;
+alias rm=&amp;#39;rm -i&amp;#39;
+alias which=&amp;#39;alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde’
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Linux"></category><category term="Unix"></category><category term="OS"></category><category term="sysadmin"></category><category term="devops"></category></entry><entry><title>WebServers</title><link href="http://www.ebsantos.com/ApacheNginx.html" rel="alternate"></link><published>2018-02-02T01:15:00-06:00</published><updated>2018-02-02T01:15:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-02-02:/ApacheNginx.html</id><summary type="html">&lt;h1&gt;Apache&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Apache Example&lt;/strong&gt; (Configs may vary, depends on each case - Basic overview)&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;REVERSE PROXY - APACHE
+&lt;span class="nt"&gt;&amp;lt;VirtualHost&lt;/span&gt; &lt;span class="err"&gt;*:80&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt; 
+ProxyPreserveHost On
+ProxyRequests Off
+ServerName www.example.com
+ServerAlias example.com
+ProxyPass / http://localhost:8080/example/
+ProxyPassReverse / http://localhost:8080/example/
+&lt;span class="nt"&gt;&amp;lt;/VirtualHost&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;NGINX&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Simple upstream backend Load Balance Configuration&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; &lt;span class="nt"&gt;upstream&lt;/span&gt; &lt;span class="nt"&gt;backend&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+ &lt;span class="err"&gt;server&lt;/span&gt; &lt;span class="err"&gt;192 …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h1&gt;Apache&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Apache Example&lt;/strong&gt; (Configs may vary, depends on each case - Basic overview)&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;REVERSE PROXY - APACHE
+&lt;span class="nt"&gt;&amp;lt;VirtualHost&lt;/span&gt; &lt;span class="err"&gt;*:80&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt; 
+ProxyPreserveHost On
+ProxyRequests Off
+ServerName www.example.com
+ServerAlias example.com
+ProxyPass / http://localhost:8080/example/
+ProxyPassReverse / http://localhost:8080/example/
+&lt;span class="nt"&gt;&amp;lt;/VirtualHost&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;NGINX&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Simple upstream backend Load Balance Configuration&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; &lt;span class="nt"&gt;upstream&lt;/span&gt; &lt;span class="nt"&gt;backend&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+ &lt;span class="err"&gt;server&lt;/span&gt; &lt;span class="err"&gt;192.168.1.4&lt;/span&gt; &lt;span class="err"&gt;fail_timeout=10s&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+ &lt;span class="err"&gt;server&lt;/span&gt; &lt;span class="err"&gt;192.168.1.7&lt;/span&gt; &lt;span class="err"&gt;fail_timeout=10s&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+ &lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="nt"&gt;server&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+     &lt;span class="err"&gt;location&lt;/span&gt; &lt;span class="err"&gt;/&lt;/span&gt; &lt;span class="err"&gt;{&lt;/span&gt;
+     &lt;span class="err"&gt;proxy_pass&lt;/span&gt; &lt;span class="n"&gt;http&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;backend&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+     &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Linux"></category><category term="Unix"></category><category term="OS"></category><category term="sysadmin"></category><category term="devops"></category><category term="Apache"></category><category term="NGINX"></category></entry><entry><title>Simple Scripts!</title><link href="http://www.ebsantos.com/Scripts.html" rel="alternate"></link><published>2018-02-02T01:01:00-06:00</published><updated>2018-02-02T01:01:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-02-02:/Scripts.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Backup using shell script (this example weblogic domain)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;DATA=`date +%Y-%m-%d-%H.%M`
+tar -zcvf  /repo/bpel/backup/BPEL/backup-config-&amp;quot;$DATA&amp;quot;.tar.gz /domains/BPEL/config
+tar -zcvf  /repo/bpel/backup/BPEL/backup-security-&amp;quot;$DATA&amp;quot;.tar.gz /domains/BPEL/servers/bwBPEL_Admin/security
+tar -zcvf  /repo/bpel/backup/BPEL/backup-ldap- …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;Backup using shell script (this example weblogic domain)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;DATA=`date +%Y-%m-%d-%H.%M`
+tar -zcvf  /repo/bpel/backup/BPEL/backup-config-&amp;quot;$DATA&amp;quot;.tar.gz /domains/BPEL/config
+tar -zcvf  /repo/bpel/backup/BPEL/backup-security-&amp;quot;$DATA&amp;quot;.tar.gz /domains/BPEL/servers/bwBPEL_Admin/security
+tar -zcvf  /repo/bpel/backup/BPEL/backup-ldap-&amp;quot;$DATA&amp;quot;.tar.gz /domains/BPEL/servers/bwBPEL_Admin/data/ldap
+clear
+echo &amp;quot;Backup successfully...&amp;quot;
+exit
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;CLEAN LOG - SCRIPT&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[weblogic@snake001]$ cat limpa.sh
+cat /dev/null &amp;gt; /logs/HmlWLS/BusCloud_60101.log;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Linux"></category><category term="Unix"></category><category term="OS"></category><category term="shell"></category><category term="scripts"></category><category term="devops"></category></entry><entry><title>Certificates</title><link href="http://www.ebsantos.com/Certificates.html" rel="alternate"></link><published>2018-02-02T01:00:00-06:00</published><updated>2018-02-02T01:00:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-02-02:/Certificates.html</id><summary type="html">&lt;h1&gt;&lt;strong&gt;Working with Certificates&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Import certificate - Using Java keytool&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;keytool&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;alias&lt;/span&gt; &lt;span class="n"&gt;mundipagg&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;file&lt;/span&gt; &lt;span class="n"&gt;CA_b2w_cert_test&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cer&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;keystore&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;JAVA_HOME&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;jre&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;security&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;cacerts&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;storepass&lt;/span&gt; &lt;span class="n"&gt;changeit&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;trustcacerts&lt;/span&gt;
+
+&lt;span class="o"&gt;./&lt;/span&gt;&lt;span class="n"&gt;keytool&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;alias&lt;/span&gt; &lt;span class="n"&gt;neogrid&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;file&lt;/span&gt;  &lt;span class="n"&gt;webedi_neogrid_com&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cer&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;keystore&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;JAVA_HOME&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;jre&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;security&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;cacerts&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;storepass&lt;/span&gt; &lt;span class="n"&gt;changeit&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;trustcacerts&lt;/span&gt;
+
+&lt;span class="o"&gt;./&lt;/span&gt;&lt;span class="n"&gt;keytool&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;alias&lt;/span&gt; &lt;span class="n"&gt;mundipaggbase64&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;file&lt;/span&gt; &lt;span class="n"&gt;MundiPaggOne_Base64_X509&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cer&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;keystore&lt;/span&gt; &lt;span class="n"&gt;cacerts&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;storepass …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h1&gt;&lt;strong&gt;Working with Certificates&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Import certificate - Using Java keytool&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;keytool&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;alias&lt;/span&gt; &lt;span class="n"&gt;mundipagg&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;file&lt;/span&gt; &lt;span class="n"&gt;CA_b2w_cert_test&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cer&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;keystore&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;JAVA_HOME&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;jre&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;security&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;cacerts&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;storepass&lt;/span&gt; &lt;span class="n"&gt;changeit&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;trustcacerts&lt;/span&gt;
+
+&lt;span class="o"&gt;./&lt;/span&gt;&lt;span class="n"&gt;keytool&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;alias&lt;/span&gt; &lt;span class="n"&gt;neogrid&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;file&lt;/span&gt;  &lt;span class="n"&gt;webedi_neogrid_com&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cer&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;keystore&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;JAVA_HOME&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;jre&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;security&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;cacerts&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;storepass&lt;/span&gt; &lt;span class="n"&gt;changeit&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;trustcacerts&lt;/span&gt;
+
+&lt;span class="o"&gt;./&lt;/span&gt;&lt;span class="n"&gt;keytool&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;alias&lt;/span&gt; &lt;span class="n"&gt;mundipaggbase64&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;file&lt;/span&gt; &lt;span class="n"&gt;MundiPaggOne_Base64_X509&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cer&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;keystore&lt;/span&gt; &lt;span class="n"&gt;cacerts&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;storepass&lt;/span&gt; &lt;span class="n"&gt;changeit&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;trustcacerts&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Listing Certificates&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;./keytool -list -v -keystore $JAVA_HOME/jre/lib/security/cacerts
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Delete certificates on keystore!&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;keytool -delete -alias server1.domain.com -keystore server_keystore.jks
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;DOWNLOAD CERTIFICATE CHAIN AND INPUT INTO A FILE&lt;/strong&gt; &lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo &amp;quot;&amp;quot; | openssl s_client -connect smartwalletstaging.mundipaggone.com:443 -showcerts 2&amp;gt;/dev/null | openssl x509 -out certificado_do_site.cer
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Certificates"></category><category term="Linux"></category><category term="keytool"></category></entry><entry><title>Testing and Text Downloads!</title><link href="http://www.ebsantos.com/Testing.html" rel="alternate"></link><published>2018-02-01T01:10:00-06:00</published><updated>2018-02-01T01:10:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-02-01:/Testing.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;USING CURL&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;curl -i http://company-stock-v2.elasticbeanstalk.com/stock/111895943?storeId=13933305000106
+
+curl -i -X POST -H &amp;quot;Content-Type:application/xml&amp;quot; -d &amp;#39;&lt;span class="nt"&gt;&amp;lt;movementRequestJson&amp;gt;&amp;lt;sku&amp;gt;&lt;/span&gt;3213219&lt;span class="nt"&gt;&amp;lt;/sku&amp;gt;&amp;lt;seller&amp;gt;&lt;/span&gt;13933305000106&lt;span class="nt"&gt;&amp;lt;/seller&amp;gt;&amp;lt;totalQuantity&amp;gt;&lt;/span&gt;1&lt;span class="nt"&gt;&amp;lt;/totalQuantity&amp;gt;&amp;lt;leadTime&amp;gt;&lt;/span&gt;0&lt;span class="nt"&gt;&amp;lt;/leadTime&amp;gt;&amp;lt;subInventory&amp;gt;&lt;/span&gt;9801&lt;span class="nt"&gt;&amp;lt;/subInventory&amp;gt;&amp;lt;warehouse&amp;gt;&lt;/span&gt;98&lt;span class="nt"&gt;&amp;lt;/warehouse&amp;gt;&amp;lt;stockType&amp;gt;&lt;/span&gt;FISICO&lt;span class="nt"&gt;&amp;lt;/stockType&amp;gt;&amp;lt;/movementRequestJson&amp;gt;&lt;/span&gt;&amp;#39; http://company-stock-v2.elasticbeanstalk.com/stock;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Using …&lt;/strong&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;USING CURL&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;curl -i http://company-stock-v2.elasticbeanstalk.com/stock/111895943?storeId=13933305000106
+
+curl -i -X POST -H &amp;quot;Content-Type:application/xml&amp;quot; -d &amp;#39;&lt;span class="nt"&gt;&amp;lt;movementRequestJson&amp;gt;&amp;lt;sku&amp;gt;&lt;/span&gt;3213219&lt;span class="nt"&gt;&amp;lt;/sku&amp;gt;&amp;lt;seller&amp;gt;&lt;/span&gt;13933305000106&lt;span class="nt"&gt;&amp;lt;/seller&amp;gt;&amp;lt;totalQuantity&amp;gt;&lt;/span&gt;1&lt;span class="nt"&gt;&amp;lt;/totalQuantity&amp;gt;&amp;lt;leadTime&amp;gt;&lt;/span&gt;0&lt;span class="nt"&gt;&amp;lt;/leadTime&amp;gt;&amp;lt;subInventory&amp;gt;&lt;/span&gt;9801&lt;span class="nt"&gt;&amp;lt;/subInventory&amp;gt;&amp;lt;warehouse&amp;gt;&lt;/span&gt;98&lt;span class="nt"&gt;&amp;lt;/warehouse&amp;gt;&amp;lt;stockType&amp;gt;&lt;/span&gt;FISICO&lt;span class="nt"&gt;&amp;lt;/stockType&amp;gt;&amp;lt;/movementRequestJson&amp;gt;&lt;/span&gt;&amp;#39; http://company-stock-v2.elasticbeanstalk.com/stock;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Using WGET - This case downloading JDK 1.8u51 from Oracle&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;wget&lt;/span&gt; &lt;span class="nt"&gt;--no-cookies&lt;/span&gt; &lt;span class="nt"&gt;--no-check-certificate&lt;/span&gt; &lt;span class="nt"&gt;--header&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie&amp;quot;&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-linux-x64.tar.gz&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Find below for more examples: &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://stackoverflow.com/questions/10268583/downloading-java-jdk-on-linux-via-wget-is-shown-license-page-instead/" target="_blank"&gt;StackOverflow about WGET usage, very complete&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SOAPUI&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;One of the tools that I've been working with over the years is &lt;strong&gt;Smart Bear SOAPUI&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;You can test, WSDL's, Restful API's, WebServices Endpoints, JMS workloads, simulate HTTP workload, work with payloads, anyways, unique tool!&lt;/p&gt;
+&lt;p&gt;Find below the link for further information:&lt;/p&gt;
+&lt;p&gt;&lt;a href=?https://smartbear.com/" target="_blank"&gt;Smart Bear WebPage&lt;/a&gt;&lt;/p&gt;</content><category term="Linux"></category><category term="Unix"></category><category term="OS"></category><category term="sysadmin"></category><category term="devops"></category><category term="Testing"></category><category term="SOAPUI"></category></entry><entry><title>WebLogic Commands!!</title><link href="http://www.ebsantos.com/WebLogic%20Skyrocking.html" rel="alternate"></link><published>2018-01-27T14:05:00-06:00</published><updated>2018-01-27T14:05:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-01-27:/WebLogic Skyrocking.html</id><summary type="html">&lt;h2&gt;WebLogic Hacks&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Decrypt or Encrypt passwords&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Extract - wlsdecrypt usage&lt;/p&gt;
+&lt;p&gt;You must copy $WLS-DOMAIN-HOME/security folder first, then run the command below inside this folder.&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; Decrypt
+ /opt/oracle/Middleware/Oracle_Home/wlserver/common/bin/wlst.sh wlsdecrypt.py boot.properties or
+
+ Encrypt
+ /opt/oracle/Middleware/Oracle_Home/wlserver/common/bin/wlst.sh wlsencrypt …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h2&gt;WebLogic Hacks&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Decrypt or Encrypt passwords&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Extract - wlsdecrypt usage&lt;/p&gt;
+&lt;p&gt;You must copy $WLS-DOMAIN-HOME/security folder first, then run the command below inside this folder.&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; Decrypt
+ /opt/oracle/Middleware/Oracle_Home/wlserver/common/bin/wlst.sh wlsdecrypt.py boot.properties or
+
+ Encrypt
+ /opt/oracle/Middleware/Oracle_Home/wlserver/common/bin/wlst.sh wlsencrypt.py boot.properties
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Of course, you must have these scripts working. &lt;/p&gt;
+&lt;p&gt;You can download them from here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Eddie-Uncle/Decrypt-WLS-passwords/" target="_blank"&gt;Uncle Eddie Git Hub - WLS Decrypt and Encrypt passwords&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;WEBLOGIC PATCHES&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Tool : BSU (Previously BEA)&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Windows&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Installing
+
+C:\bea\utils\bsu&amp;gt;bsu.cmd -prod_dir=c:\bea\weblogic92 -patch_download_dir=D:\pat -patchlist=2LYV -verbose -install -log=D:\pat\pat.txt -log_priority=trace
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Linux&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Installing
+
+cd /u01/middleware/oracle/appserver/BPMDomain/utils/bsu/
+./bsu.sh -prod_dir=/u01/middleware/oracle/appserver/BPMDomain/wlserver_10.3 -patch_download_dir=/u01/middleware/oracle/appserver/BPMDomain/utils/bsu/cache_dir -patchlist=S28A -verbose -install
+
+Removing
+
+cd /u01/middleware/oracle/appserver/BPMDomain/utils/bsu/./bsu.sh -prod_dir=/u01/middleware/oracle/appserver/BPMDomain/wlserver_10.3 -patchlist=YUIS -verbose -remove
+
+Verbose Listing patches applied
+
+./bsu.sh -prod_dir=/u01/middleware/oracle/appserver/SOADomain/wlserver_10.3 -status=applied -verbose -view
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Tool : OPatch - (Oracle Patch)&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;./opatch lsinventory -invPtrLoc /products/oracle/wls1036/osb11116/oraInst.loc
+
+./opatch apply -invPtrLoc /products/oracle/wls1036/osb11116/oraInst.loc
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Useful Links&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;WEBLOGIC WLST COMMANDS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://docs.oracle.com/cd/E28271_01/web.1111/e13813/custom_soa.htm" target="_blank"&gt;Custom SOA Suite - WLST Scripting Commands&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blogs.oracle.com/weblogicserver/" target="_blank"&gt;Oficial WebLogic Server Blog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;nmEnroll - NodeManager&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Set the Environment
+/products/oracle/wlp1002/wlserver_10.0/common/bin/wlst.sh
+
+Example 1:
+connect(&amp;#39;weblogic&amp;#39;,&amp;#39;37a6ef686f&amp;#39;,&amp;#39;t3://192.168.0.67:60000&amp;#39;)
+nmEnroll(&amp;#39;/home/ndmgr/clustdomain&amp;#39;,&amp;#39;/home/ndmgr&amp;#39;)
+exit(
+
+Example 2:
+connect(&amp;quot;weblogic&amp;quot;,&amp;quot;d5e58b2f92&amp;quot;,&amp;quot;t3://10.3.172.43:51000&amp;quot;)
+nmEnroll(&amp;quot;/domains/HmlBUS&amp;quot;)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;START UP SCRIPT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;nohup ./startWebLogic.sh &amp;amp;&amp;gt;/logs/WLSDomain/ServerAdm_64000.out &amp;amp;
+echo "WLSDomain - Starting UP the ADMIN Server - ServerAdm_64000: /logs/WLSDomain/ServerAdm_64000.out"&lt;/p&gt;
+&lt;p&gt;DEBUG FLAGS&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;-Dweblogic.StdoutDebugEnabled=true
+
+-Dssl.debug=true
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Java&lt;/h2&gt;
+&lt;p&gt;Verify and count a specific  java class&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;grep com.b2w.controlpanel.exception.ServiceException server_log.out | wc -l
+11466
+
+
+grep &amp;lt;com.b2w.controlpanel.exception.ServiceException &amp;lt;log.out | wc -l&amp;gt;
+Results:
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Setting up Home Directories&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;ORACLE_HOME (Oracle XE)&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;export ORACLE_HOME=/u01/app/oracle/product/11.2.0/xe
+export ORACLE_SID=XE
+export ORACLE_BASE=/u01/app/oracle
+export PATH=$ORACLE_HOME/bin:$PATH
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;ANT&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;export ANT_HOME=/home/weblogic/SCRIPTS/apache-ant-1.9.4
+export PATH=$ANT_HOME/bin:$PATH
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;JAVA_HOME&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;export JAVA_HOME=/products/java7
+export PATH=$JAVA_HOME/bin:$PATH
+export PATH=$JRE_HOME/bin:$PATH
+
+export JAVA_HOME=/products/jvm/java8
+export PATH=$JAVA_HOME/bin:$PATH
+export PATH=$JRE_HOME/bin:$PATH
+
+export JAVA_HOME=/oracle/wls11g/jrockit-jdk1.6.0_37-R28.2.5-4.1.0
+export PATH=$JAVA_HOME/bin:$PATH
+export PATH=$JRE_HOME/bin:$PATH
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;THREAD CONFIGURATION&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;WEBLOGIC JVM THREADPOOL CONFIGURATION&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;-Dweblogic.threadpool.MinPoolSize=300
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;THREAD POOL SIZE - weblogic&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;-Dweblogic.threadpool.MinPoolSize=300
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;THREAD DUMP - WEBLOGIC&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/app/bea/jrockit-R27.5.0-jdk1.5.0_14/bin/jrcmd 31786 print_threads
+
+/products/jvm/jrockit-jdk1.6.0_45-R28.2.7-4.1.0/bin/jrcmd 25817 print_threads
+
+/bea/java6/bin/jrcmd 27287 print_threads
+
+/oracle/wls11g/Oracle/Middleware/jrockit_160_29_D1.2.0-10/bin/jrcmd 15470 print_threads &amp;gt; /home/weblogic/print.txt
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;*PRE REQ ORACLE DB 11g INSTALLATION - RED HAT LINUX 6 *&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;yum install oracle-rdbms-server-11gR2-preinstall
+&lt;/pre&gt;&lt;/div&gt;</content><category term="WebLogic"></category><category term="Oracle"></category><category term="SysOps"></category><category term="DevOps"></category><category term="Middleware"></category></entry><entry><title>Silicon Valley or Europe!!</title><link href="http://www.ebsantos.com/Europe.html" rel="alternate"></link><published>2018-01-27T02:00:00-06:00</published><updated>2018-01-27T02:00:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-01-27:/Europe.html</id><summary type="html">&lt;p&gt;WEFORUM.ORG: Work and live in Silicon Valley, probably the IT everybody's dream right?  Well,  not sure, cowboy, I have good news! See the link below where shows Europe Market more and more solid, good reading:  &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.weforum.org/agenda/2017/10/meet-europe-top-tech-titans/?utm_content=buffer998fb&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer" target="_blank"&gt;Europe Tech Market -- see the outstanding Numbers&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;WEFORUM.ORG: Work and live in Silicon Valley, probably the IT everybody's dream right?  Well,  not sure, cowboy, I have good news! See the link below where shows Europe Market more and more solid, good reading:  &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.weforum.org/agenda/2017/10/meet-europe-top-tech-titans/?utm_content=buffer998fb&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer" target="_blank"&gt;Europe Tech Market -- see the outstanding Numbers&lt;/a&gt;&lt;/p&gt;</content><category term="Tech"></category><category term="Europe"></category><category term="Market"></category><category term="IT"></category></entry><entry><title>WebLogic Server running over Kubernetes!</title><link href="http://www.ebsantos.com/Servers.html" rel="alternate"></link><published>2018-01-05T11:57:00-06:00</published><updated>2018-01-05T11:57:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-01-05:/Servers.html</id><summary type="html">&lt;p&gt;If you are asking youself if you can use the massive WebLogic application server on a Kubernetes cluster! Yes you can and you should.&lt;/p&gt;
+&lt;p&gt;Find below the link step by step how to do it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://blogs.oracle.com/weblogicserver/weblogic-on-kubernetes%2c-try-it" target="_blank"&gt;WebLogic 12.2.2.1 on Kubernetes&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Have fun!! I tried myself is a good …&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you are asking youself if you can use the massive WebLogic application server on a Kubernetes cluster! Yes you can and you should.&lt;/p&gt;
+&lt;p&gt;Find below the link step by step how to do it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://blogs.oracle.com/weblogicserver/weblogic-on-kubernetes%2c-try-it" target="_blank"&gt;WebLogic 12.2.2.1 on Kubernetes&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Have fun!! I tried myself is a good worthy time spend! &lt;/p&gt;
+&lt;p&gt;The bottom line here is "it shows Oracle and the big players moving towards at quick pace to containerization more than ever".&lt;/p&gt;</content><category term="tech"></category><category term="containers"></category><category term="oracle"></category><category term="weblogic"></category></entry></feed>
