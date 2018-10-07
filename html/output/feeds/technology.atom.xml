@@ -1,5 +1,384 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Edson Bernardo Santos - Technology</title><link href="http://www.ebsantos.com/" rel="alternate"></link><link href="http://www.ebsantos.com/feeds/technology.atom.xml" rel="self"></link><id>http://www.ebsantos.com/</id><updated>2018-02-08T11:20:00-06:00</updated><entry><title>Terraform!</title><link href="http://www.ebsantos.com/Terraform.html" rel="alternate"></link><published>2018-02-08T11:20:00-06:00</published><updated>2018-02-08T11:20:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-02-08:/Terraform.html</id><summary type="html">&lt;h1&gt;Terraform apply&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Edson Bernardo Santos - Technology</title><link href="http://www.ebsantos.com/" rel="alternate"></link><link href="http://www.ebsantos.com/feeds/technology.atom.xml" rel="self"></link><id>http://www.ebsantos.com/</id><updated>2018-07-22T01:20:00-06:00</updated><entry><title>Linux Hacks and Command Line!</title><link href="http://www.ebsantos.com/Linuxcommand.html" rel="alternate"></link><published>2018-07-22T01:20:00-06:00</published><updated>2018-07-22T01:20:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-07-22:/Linuxcommand.html</id><summary type="html">&lt;h1&gt;Linux Command Line Resource Kit&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;SYSTEMCTL (RedHat/CentOS) usage&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;To enable or disable services automatically on CentOS or RedHat Flavors.&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;systemctl disable httpd
+systemctl enable docker
+systemctl status kubelet
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Hostnamectl&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;hostnamectl command : Control the system hostname.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;nmtui&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;nmtui command : Control the system hostname and other network settings using text user …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h1&gt;Linux Command Line Resource Kit&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;SYSTEMCTL (RedHat/CentOS) usage&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;To enable or disable services automatically on CentOS or RedHat Flavors.&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;systemctl disable httpd
+systemctl enable docker
+systemctl status kubelet
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Hostnamectl&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;hostnamectl command : Control the system hostname.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;nmtui&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;nmtui command : Control the system hostname and other network settings using text user interface (NMTUI).
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;`&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;nmcli command : Exhibits information about your network device
+nmcli device show 
+nmcli dev status
+nmcli con up &amp;lt;profile_name&amp;gt;
+    Example: nmcli con up 5G (previously created with nmtui)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;timedatectl&lt;/em&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;timedatectl command: Exhibits information about timezone and date of the system.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Kill other user session&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;sudo pkill -9 -u username   &lt;/p&gt;
+&lt;p&gt;Find below fewer examples about it:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cyberciti.biz/faq/howto-kill-unix-linux-user-session/" target="_blank"&gt;User Management Session&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Link to change the timezone&lt;/em&gt; (CentOS)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://linuxacademy.com/blog/linux/changing-the-time-zone-in-linux-command-line/" target="_blank"&gt;Linux Academy Changing the timezone in your system&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;Security&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;SELINUX APACHE&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;semanage port -l | grep http
+semanage port -a -t http_port_t -p tcp 80
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Working with Native CENTOS 7 Firewall&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo firewall-cmd --zone=public --add-service=http --permanent
+sudo firewall-cmd --zone-public --add-port=8080/tcp --permanent
+sudo firewall-cmd --zone=public --list-services
+rpm qa | grep firewalld
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;Files handling&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;LSOF usage and examples&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo &amp;quot;OpenSockets=&amp;quot;$(/usr/sbin/lsof | grep -i weblogic | wc -l) &amp;gt;   results.txt
+
+/usr/sbin/lsof | grep -i weblogic
+
+/usr/sbin/lsof | grep -i weblogic | grep -i deleted
+and then kill stuck pid&amp;#39;s!
+
+/usr/sbin/lsof  | grep weblogic | awk &amp;#39;{ print $3 }&amp;#39; | sort -u
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;How to check too many open files&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;lsof -u weblogic | wc -l
+
+[root@ares ~]# cat /proc/sys/fs/file-max
+65536
+
+/usr/sbin/lsof | grep weblogic | awk &amp;#39;{ print $2 }&amp;#39; | sort -u
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;AWK and CUT usage&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ps -ef | grep java | awk ‘{ print $2 }’ | sort -u | xargs kill -9
+
+ps - ef | grep java | cut -d &amp;quot; &amp;quot; -f2 | xargs kill -9
+
+ps -ef | grep weblogic | awk &amp;#39;{ print $2 }&amp;#39; | sort -u | xargs kill -9
+
+kill -9 $(ps auwwwx | grep -i -E &amp;quot;jboss|weblogic|websphere&amp;quot; | grep -v grep | awk &amp;#39;{ print $2 }&amp;#39;)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;SED&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sed -i &amp;#39;s/10.13.0.87/10.13.0.193/g&amp;#39; *.xml
+sed -i ’s/8080/8080/g&amp;#39; *.xml
+sed -i &amp;#39;s/server01:10110/server02:60101/g&amp;#39; appconfig.properties
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;FOR LOOP USAGE&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;for x in `cat name_file`;do echo &lt;span class="nv"&gt;$x&lt;/span&gt;;done
+
+for x in `cat name_file`;do ssh -q &lt;span class="nv"&gt;$x&lt;/span&gt;;done
+
+for i in `cat file.txt` ; do ping -c1 &lt;span class="nv"&gt;$i&lt;/span&gt; 2&amp;gt;&lt;span class="err"&gt;&amp;amp;&lt;/span&gt;1 | tee &amp;gt;&amp;gt; ping-    output.txt; done
+
+(Creating serveral files at a glance)
+
+for i in {1..9}; do touch  kubn40&lt;span class="cp"&gt;${&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="cp"&gt;}&lt;/span&gt;.sh; done
+usage: for i in {range..}; do command filename$${i}.txt; done
+for i in {1..9}; do cat kubn410.sh &amp;gt;&amp;gt;  kubn40&lt;span class="cp"&gt;${&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="cp"&gt;}&lt;/span&gt;.sh; done
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;GREP USAGE&lt;/strong&gt; &lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;grep &amp;lt;search&amp;gt; &amp;lt;file&amp;gt; | awk &amp;#39;{print $1}&amp;#39; &amp;gt;&amp;gt; &amp;lt;new_file_output&amp;gt;.txt
+
+example: grep -ir Carrefour *.sh | awk &amp;#39;{print $1}&amp;#39; &amp;gt;&amp;gt; search.txt
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;DU Usage&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;du -sk * | sort -n
+
+du -sh /logs/* | sort -nr | grep G
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;FIND Usage&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;   find . -size +50M
+   find / -type f -name &amp;quot;index.php&amp;quot;
+   find / -type f -name &amp;quot;*.log&amp;quot; -size +1M
+   find / -type f -name &amp;quot;*.log&amp;quot; -size +1M | xargs rm -rf {} \;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Quick GREP and Tailing Logs (examples)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;tail -f *.out | grep &amp;quot;Socket read timed out&amp;quot; | wc -l
+tail -f *.out | grep &amp;quot;Socket read timed out&amp;quot; --color
+tail -f *.out | grep &amp;quot;error&amp;quot; --color
+
+cat bwbpelsp02_01-yyyy-MM-dd-HH-mm.log | grep &amp;quot;Socket read timed    out&amp;quot; | wc -l
+
+tail -f *.out | egrep -i &amp;#39;ERR|ORA-|OVERL|SUSPEN&amp;#39;
+tail -f *.out | egrep -i &amp;#39;STUCK&amp;#39;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;THREAD COUNT BY USER&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    ps -uweblogic -lf | wc -l
+    ps -uapache -lf | wc -l
+    ps -unginx -lf | wc -l
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Verify and count a specific java class&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;grep com.yourcompany.product.exception.ServiceException log.out | wc -l 
+result = 11466
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;DMESG&lt;/strong&gt; (old fashion)&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[root@bwsubacat04 sitecontent]# dmesg | grep file-max
+VFS: file-max limit 65536 reached
+VFS: file-max limit 65536 reached
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;ENCODE LINUX&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo $LANG
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;LIMITS - SO LINUX (CENTOS 6)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;LIMITS
+echo &amp;#39;###WEBLOGIC###&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
+echo &amp;#39;weblogic  soft nproc 20000&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
+echo &amp;#39;weblogic  hard nproc 20000&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
+echo &amp;#39;weblogic  soft nofile 65536&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
+echo &amp;#39;weblogic  hard nofile 65536&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
+echo &amp;#39;weblogic  soft memlock 16384000&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
+echo &amp;#39;weblogic  hard memlock 16384000&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;IFCONFIG MTU&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ifconfig ib0 | grep MTU; ifconfig ib1 | grep MTU; ifconfig bond0 | grep MTU
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;CHECK - LDAP USER&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;getent passwd | grep &amp;lt;user&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;mpstat – Processors Statistics&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Using mpstat command without any option, will display the Global Average Activities by All CPUs.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Basic example sudores file&lt;/strong&gt; (there are better practices, in this case these users are allowed to excecute as root without password - General overview)&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;SUDOERS
+weblogic ALL=(ALL) NOPASSWD: /bin/vi /etc/hosts
+fmwadmin ALL=(ALL) NOPASSWD: /bin/vi /etc/hosts
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;CRONTAB&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;crontab -l (Exhibits the current crontab created)&lt;/p&gt;
+&lt;p&gt;crontab -e (Create a crontab under running user)&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Example of job definition:&lt;/span&gt;
+&lt;span class="c1"&gt;# .---------------- minute (0 - 59)&lt;/span&gt;
+&lt;span class="c1"&gt;# |  .------------- hour (0 - 23)&lt;/span&gt;
+&lt;span class="c1"&gt;# |  |  .---------- day of month (1 - 31)&lt;/span&gt;
+&lt;span class="c1"&gt;# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...&lt;/span&gt;
+&lt;span class="c1"&gt;# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR                  sun,mon,tue,wed,thu,fri,sat&lt;/span&gt;
+&lt;span class="c1"&gt;# |  |  |  |  |&lt;/span&gt;
+&lt;span class="c1"&gt;# *  *  *  *  * user-name command to be executed&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Tee usage (similar to echo)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;tee /etc/yum.repos.d/docker.repo &amp;lt;&amp;lt;-EOF
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Obtain PID specific application&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ps aux | awk -v app=&amp;#39;Apache&amp;#39; &amp;#39;$0 ~ app { print $1 }’
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Working with Aliases&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;alias
+alias vi=&amp;#39;vim&amp;#39;
+alias cp=&amp;#39;cp -i&amp;#39;
+alias egrep=&amp;#39;egrep --color=auto&amp;#39;
+alias fgrep=&amp;#39;fgrep --color=auto&amp;#39;
+alias grep=&amp;#39;grep --color=auto&amp;#39;
+alias l.=&amp;#39;ls -d .* --color=auto&amp;#39;
+alias ll=&amp;#39;ls -l --color=auto&amp;#39;
+alias ls=&amp;#39;ls --color=auto&amp;#39;
+alias mv=&amp;#39;mv -i&amp;#39;
+alias rm=&amp;#39;rm -i&amp;#39;
+alias which=&amp;#39;alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde’
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;USING CURL&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;curl -i http://company-stock-v2.elasticbeanstalk.com/stock/111895943?storeId=13933305000106
+
+curl -i https://www.uol.com.br -k
+
+curl -i -X POST -H &amp;quot;Content-Type:application/xml&amp;quot; -d &amp;#39;&lt;span class="nt"&gt;&amp;lt;movementRequestJson&amp;gt;&amp;lt;sku&amp;gt;&lt;/span&gt;3213219&lt;span class="nt"&gt;&amp;lt;/sku&amp;gt;&amp;lt;seller&amp;gt;&lt;/span&gt;13933305000106&lt;span class="nt"&gt;&amp;lt;/seller&amp;gt;&amp;lt;totalQuantity&amp;gt;&lt;/span&gt;1&lt;span class="nt"&gt;&amp;lt;/totalQuantity&amp;gt;&amp;lt;leadTime&amp;gt;&lt;/span&gt;0&lt;span class="nt"&gt;&amp;lt;/leadTime&amp;gt;&amp;lt;subInventory&amp;gt;&lt;/span&gt;9801&lt;span class="nt"&gt;&amp;lt;/subInventory&amp;gt;&amp;lt;warehouse&amp;gt;&lt;/span&gt;98&lt;span class="nt"&gt;&amp;lt;/warehouse&amp;gt;&amp;lt;stockType&amp;gt;&lt;/span&gt;FISICO&lt;span class="nt"&gt;&amp;lt;/stockType&amp;gt;&amp;lt;/movementRequestJson&amp;gt;&lt;/span&gt;&amp;#39; http://company-stock-v2.elasticbeanstalk.com/stock;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Examples for CURL usage;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.codingpedia.org/ama/how-to-test-a-rest-api-from-command-line-with-curl/" target="_blank"&gt;Curl and examples GET POST All methods&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Using WGET - This case downloading JDK 1.8u51 from Oracle&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;wget&lt;/span&gt; &lt;span class="nt"&gt;--no-cookies&lt;/span&gt; &lt;span class="nt"&gt;--no-check-certificate&lt;/span&gt; &lt;span class="nt"&gt;--header&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie&amp;quot;&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-linux-x64.tar.gz&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Find below for more examples: &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://stackoverflow.com/questions/10268583/downloading-java-jdk-on-linux-via-wget-is-shown-license-page-instead/" target="_blank"&gt;StackOverflow about WGET usage, very complete&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SOAPUI&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;One of the tools that I've been working with over the years is &lt;strong&gt;Smart Bear SOAPUI&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;You can test, WSDL's, Restful API's, WebServices Endpoints, JMS workloads, simulate HTTP workload, work with payloads, anyways, unique tool!&lt;/p&gt;
+&lt;p&gt;Find below the link for further information:&lt;/p&gt;
+&lt;p&gt;&lt;a href=?https://smartbear.com/" target="_blank"&gt;Smart Bear WebPage&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Backup using shell script (this example weblogic domain)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;DATA=`date +%Y-%m-%d-%H.%M`
+tar -zcvf  /repo/bpel/backup/BPEL/backup-config-&amp;quot;$DATA&amp;quot;.tar.gz /domains/BPEL/config
+tar -zcvf  /repo/bpel/backup/BPEL/backup-security-&amp;quot;$DATA&amp;quot;.tar.gz /domains/BPEL/servers/bwBPEL_Admin/security
+tar -zcvf  /repo/bpel/backup/BPEL/backup-ldap-&amp;quot;$DATA&amp;quot;.tar.gz /domains/BPEL/servers/bwBPEL_Admin/data/ldap
+clear
+echo &amp;quot;Backup successfully...&amp;quot;
+exit
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Backup II - Example&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Exclude Example&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo &amp;quot;Starting Backup&amp;quot;
+DATE=`date +%Y-%m-%d-%H.%M.$$`
+echo &amp;quot;Starting Backup, except *.tar extensions&amp;quot;
+tar -zcvf blog-&amp;quot;&lt;span class="cp"&gt;${&lt;/span&gt;&lt;span class="n"&gt;DATE&lt;/span&gt;&lt;span class="cp"&gt;}&lt;/span&gt;&amp;quot;.tar.gz --exclude=&amp;#39;*.tar&amp;#39; .
+if [ &amp;quot;$?&amp;quot; -eq &amp;quot;0&amp;quot; ]
+then
+    echo &amp;quot;Backup Successfully...&amp;quot;
+    exit 0
+else
+    echo &amp;quot;Backup has failed, please check&amp;quot;
+    exit 1
+fi
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;CLEAN LOG - SCRIPT&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[weblogic@snake001]$ cat limpa.sh
+cat /dev/null &amp;gt; /logs/HmlWLS/BusCloud_60101.log;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;&lt;strong&gt;Working with Certificates&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Import certificate - Using Java keytool&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;keytool&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;alias&lt;/span&gt; &lt;span class="n"&gt;mundipagg&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;file&lt;/span&gt; &lt;span class="n"&gt;CA_b2w_cert_test&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cer&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;keystore&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;JAVA_HOME&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;jre&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;security&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;cacerts&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;storepass&lt;/span&gt; &lt;span class="n"&gt;changeit&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;trustcacerts&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Listing Certificates&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;./keytool -list -v -keystore $JAVA_HOME/jre/lib/security/cacerts
+
+Example:
+/usr/java/jre1.7.0_80/bin/keytool -list -v  -alias &amp;quot;arizonacert&amp;quot; -keystore /usr/java/jre1.7.0_80/lib/security/cacerts
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Delete certificates on keystore!&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;keytool -delete -alias server1.domain.com -keystore server_keystore.jks
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;DOWNLOAD CERTIFICATE CHAIN AND INPUT INTO A FILE&lt;/strong&gt; &lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo &amp;quot;&amp;quot; | openssl s_client -connect smartwalletstaging.mundipaggone.com:443 -showcerts 2&amp;gt;/dev/null | openssl x509 -out certificado_do_site.cer
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;GIT Command line&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Creating remote repo through command line&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;echo "# Test1" &amp;gt;&amp;gt; README.md&lt;/p&gt;
+&lt;p&gt;git init&lt;/p&gt;
+&lt;p&gt;git add README.md&lt;/p&gt;
+&lt;p&gt;git commit -m "first commit"&lt;/p&gt;
+&lt;p&gt;git remote add origin https://github.com/Eddie-Uncle/Test1.git&lt;/p&gt;
+&lt;p&gt;git push -u origin master&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VERY IMPORTANT - UNDO LAST PUSH / PULL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;git push -f origin HEAD^:master --&amp;gt; undo last push/pull&lt;/p&gt;
+&lt;p&gt;git pull -f origin HEAD^:master || git pull -f origin HEAD^:(branch)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Delete git — Locally&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;$ git checkout master #switch to another branch in this case master&lt;/p&gt;
+&lt;p&gt;$ git checkout -b edsonnewbranch #switched to the branch edsonnewbranch and so on ...&lt;/p&gt;
+&lt;p&gt;$ git branch -d Test_Branch # (Delete locally desired branch)&lt;/p&gt;
+&lt;p&gt;$ git branch -D Test_Branch # (Delete locally force option)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Delete git - Remote&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;git push origin --delete eddie-branch # (git push origin --delete branch to be deleted) &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;git pull / push commands&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Pulling code from Remote repo to local repo:&lt;/p&gt;
+&lt;p&gt;git pull origin master || git pull origin edsonnewbranch&lt;/p&gt;
+&lt;p&gt;Pushing code from Local repo to remote repo:&lt;/p&gt;
+&lt;p&gt;git push origin master || git push origin edsonnewbranch&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;git operations&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;git log -p&lt;/p&gt;
+&lt;p&gt;git status&lt;/p&gt;
+&lt;p&gt;git show&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;git credentials and user settings&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;git config --global user.name Eddie-Uncle&lt;/p&gt;
+&lt;p&gt;git config --global use.email bernardsp@gmail.com&lt;/p&gt;
+&lt;p&gt;git config --global core.editor vim&lt;/p&gt;
+&lt;p&gt;git config --global merge.tool vimdiff&lt;/p&gt;
+&lt;p&gt;git config --list&lt;/p&gt;</content><category term="Linux"></category><category term="OS"></category><category term="sysadmin"></category><category term="devops"></category><category term="curl"></category><category term="wget"></category><category term="Certificates"></category><category term="Keytool"></category><category term="SoapUI"></category><category term="Shell"></category><category term="Script"></category><category term="Git"></category></entry><entry><title>Vagrant made easy!!</title><link href="http://www.ebsantos.com/Vagrant.html" rel="alternate"></link><published>2018-05-15T08:00:00-06:00</published><updated>2018-05-15T08:00:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-05-15:/Vagrant.html</id><summary type="html">&lt;p&gt;Hi there, I've been working with  &lt;a href="https://www.vagrantup.com/" target="_blank"&gt;Vagrant&lt;/a&gt;  for a year, by now, and I'm very impressed!&lt;/p&gt;
+&lt;p&gt;In my opinion is the perfect tool for build virtual environment and even production why not?&lt;/p&gt;
+&lt;p&gt;Here you might want to check my repo &lt;a href="https://github.com/Eddie-Uncle/Vagrant" target="_blank"&gt;Eddie Uncle VagrantFiles&lt;/a&gt; for your reference and usage, I'm using …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi there, I've been working with  &lt;a href="https://www.vagrantup.com/" target="_blank"&gt;Vagrant&lt;/a&gt;  for a year, by now, and I'm very impressed!&lt;/p&gt;
+&lt;p&gt;In my opinion is the perfect tool for build virtual environment and even production why not?&lt;/p&gt;
+&lt;p&gt;Here you might want to check my repo &lt;a href="https://github.com/Eddie-Uncle/Vagrant" target="_blank"&gt;Eddie Uncle VagrantFiles&lt;/a&gt; for your reference and usage, I'm using VirtualBox by the way and is very handy when comes to set up a quick and efficient environment. You might want to combine with your CM (Configuration Management) favorite tool like Ansible, Puppet, Chef, Salt, whatever. In this example, I have provisioning with &lt;a href="https://www.ansible.com/" target="_blank"&gt;Ansible&lt;/a&gt;. Feel free to make your pick.&lt;/p&gt;
+&lt;p&gt;You can find several boxes ready to use on the &lt;a href="https://app.vagrantup.com/bento/boxes/ubuntu-18.04" target="_blank"&gt;Vagrant Bento Boxes&lt;/a&gt;. You might go ahead and check for yourself.&lt;/p&gt;
+&lt;p&gt;Other than that, here it goes a tool definitely you should know, is &lt;a href="https://www.packer.io/intro/index.html" target="_blank"&gt;Hashicorp Packer&lt;/a&gt;, but we can discuss this one later on!&lt;/p&gt;
+&lt;p&gt;Hope you like it.&lt;/p&gt;
+&lt;p&gt;Cheers.&lt;/p&gt;</content><category term="DevOps"></category><category term="Vagrant"></category></entry><entry><title>Terraform!</title><link href="http://www.ebsantos.com/Terraform.html" rel="alternate"></link><published>2018-02-08T11:20:00-06:00</published><updated>2018-02-08T11:20:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-02-08:/Terraform.html</id><summary type="html">&lt;h1&gt;Terraform apply&lt;/h1&gt;
 &lt;p&gt;Find the &lt;strong&gt;link&lt;/strong&gt; below, Terraform forked recipe to create basic EC2 instances on AWS.&lt;/p&gt;
 &lt;p&gt;Very handy in order to create easily and straightforward cloud instances.&lt;/p&gt;
 &lt;p&gt;If you dig deeper, you'll find &lt;strong&gt;main.tf&lt;/strong&gt; and &lt;strong&gt;variables.tf&lt;/strong&gt; and all you have to do is a change in order to …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Terraform apply&lt;/h1&gt;
@@ -226,253 +605,7 @@ docker-machine create -d &amp;#39;drive : virtualbox, vmware, cloud &amp;#39;vir
 &lt;p&gt;&lt;strong&gt;docker run -dit --name 'container_name' -p 'hostipmachine':80:80 --privileged -ti -e "container=docker" -v /sys/fs/cgroup:/sys/fs/cgroup -v "$PWD/html":/var/www/html dockerimage:latest /usr/sbin/init&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Basically, you are informing the container type (which is docker) and after that, you should able to use systemd in your container. Additionally, in the example above, we are setting the port -p and sharing the volume between the host and the container&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Go ahead and take a look yourself at DockerFiles, Docker Swarm, Docker Compose&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Cheers...&lt;/p&gt;</content><category term="Devops"></category><category term="Containers"></category><category term="SysOps"></category></entry><entry><title>Unix/Linux Hacks!</title><link href="http://www.ebsantos.com/Linuxcommand.html" rel="alternate"></link><published>2018-02-02T01:20:00-06:00</published><updated>2018-02-02T01:20:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-02-02:/Linuxcommand.html</id><summary type="html">&lt;h1&gt;Linux Command Line resource kit&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;SYSTEMCTL (RedHat/CentOS) usage&lt;/strong&gt; &lt;/p&gt;
-&lt;p&gt;To enable or disable services automatically on CentOS or RedHat Flavors.&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;systemctl disable httpd
-
-systemctl enable docker
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;em&gt;Hostnamectl&lt;/em&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;hostnamectl command : Control the system hostname. This is recommended method.
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;em&gt;nmtui&lt;/em&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;nmtui command : Control the system hostname using text user interface (TUI).
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;em&gt;nmcli …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Linux Command Line resource kit&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;SYSTEMCTL (RedHat/CentOS) usage&lt;/strong&gt; &lt;/p&gt;
-&lt;p&gt;To enable or disable services automatically on CentOS or RedHat Flavors.&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;systemctl disable httpd
-
-systemctl enable docker
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;em&gt;Hostnamectl&lt;/em&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;hostnamectl command : Control the system hostname. This is recommended method.
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;em&gt;nmtui&lt;/em&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;nmtui command : Control the system hostname using text user interface (TUI).
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;em&gt;nmcli&lt;/em&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;nmcli command : Exhibits information about your network device
-nmcli device show
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;em&gt;timedatectl&lt;/em&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;timedatectl command: Exhibits information about timezone and date of the system.
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;em&gt;Link to change the timezone&lt;/em&gt; (CentOS)&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://linuxacademy.com/blog/linux/changing-the-time-zone-in-linux-command-line/" target="_blank"&gt;Linux Academy Changing the timezone in your system&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;Security&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;SELINUX APACHE&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;semanage port -l | grep http
-semanage port -a -t http_port_t -p tcp 80
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Working with Native CENTOS 7 Firewall&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo firewall-cmd --zone=public --add-service=http --permanent
-sudo firewall-cmd --zone=public --list-services
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h1&gt;Files handling&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;LSOF usage and examples&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo &amp;quot;OpenSockets=&amp;quot;$(/usr/sbin/lsof | grep -i weblogic | wc -l) &amp;gt;   results.txt
-
-/usr/sbin/lsof | grep -i weblogic
-
-/usr/sbin/lsof | grep -i weblogic | grep -i deleted
-and then kill stuck pid&amp;#39;s!
-
-/usr/sbin/lsof  | grep weblogic | awk &amp;#39;{ print $3 }&amp;#39; | sort -u
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;How to check too many open files&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;lsof -u weblogic | wc -l
-
-[root@ares ~]# cat /proc/sys/fs/file-max
-65536
-
-/usr/sbin/lsof | grep weblogic | awk &amp;#39;{ print $2 }&amp;#39; | sort -u
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;AWK and CUT usage&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ps -ef | grep java | awk ‘{ print $2 }’ | sort -u | xargs kill -9
-
-ps - ef | grep java | cut -d &amp;quot; &amp;quot; -f2 | xargs kill -9
-
-ps -ef | grep weblogic | awk &amp;#39;{ print $2 }&amp;#39; | sort -u | xargs kill -9
-
-kill -9 $(ps auwwwx | grep -i -E &amp;quot;jboss|weblogic|websphere&amp;quot; | grep -v grep | awk &amp;#39;{ print $2 }&amp;#39;)
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;SED&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sed -i &amp;#39;s/10.13.0.87/10.13.0.193/g&amp;#39; *.xml
-sed -i ’s/8080/8080/g&amp;#39; *.xml
-sed -i &amp;#39;s/server01:10110/server02:60101/g&amp;#39; appconfig.properties
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;FOR LOOP USAGE&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;for x in `cat name_file`;do echo $x;done
-
-for x in `cat name_file`;do ssh -q $x;done
-
-for i in `cat file.txt` ; do ping -c1 $i 2&amp;gt;&amp;amp;1 | tee &amp;gt;&amp;gt; ping-    output.txt; done
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;GREP USAGE&lt;/strong&gt; &lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;grep &amp;lt;search&amp;gt; &amp;lt;file&amp;gt; | awk &amp;#39;{print $1}&amp;#39; &amp;gt;&amp;gt; &amp;lt;new_file_output&amp;gt;.txt
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;DU Usage&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;du -sk * | sort -n
-
-du -sh /logs/* | sort -nr | grep G
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;FIND Usage&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;   find . -size +50M
-   find / -type f -name &amp;quot;index.php&amp;quot;
-   find / -type f -name &amp;quot;*.log&amp;quot; -size +1M
-   find / -type f -name &amp;quot;*.log&amp;quot; -size +1M | xargs rm -rf {} \;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Quick GREP and Tailing Logs (examples)&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;tail -f *.out | grep &amp;quot;Socket read timed out&amp;quot; | wc -l
-tail -f *.out | grep &amp;quot;Socket read timed out&amp;quot; --color
-tail -f *.out | grep &amp;quot;error&amp;quot; --color
-
-cat bwbpelsp02_01-yyyy-MM-dd-HH-mm.log | grep &amp;quot;Socket read timed    out&amp;quot; | wc -l
-
-tail -f *.out | egrep -i &amp;#39;ERR|ORA-|OVERL|SUSPEN&amp;#39;
-tail -f *.out | egrep -i &amp;#39;STUCK&amp;#39;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;THREAD COUNT BY USER&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    ps -uweblogic -lf | wc -l
-    ps -uapache -lf | wc -l
-    ps -unginx -lf | wc -l
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Verify and count a specific java class&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;grep com.yourcompany.product.exception.ServiceException log.out | wc -l 
-result = 11466
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;DMESG&lt;/strong&gt; (old fashion)&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;[root@bwsubacat04 sitecontent]# dmesg | grep file-max
-VFS: file-max limit 65536 reached
-VFS: file-max limit 65536 reached
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;ENCODE LINUX&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo $LANG
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;LIMITS - SO LINUX (CENTOS 6)&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;LIMITS
-echo &amp;#39;###WEBLOGIC###&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
-echo &amp;#39;weblogic  soft nproc 20000&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
-echo &amp;#39;weblogic  hard nproc 20000&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
-echo &amp;#39;weblogic  soft nofile 65536&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
-echo &amp;#39;weblogic  hard nofile 65536&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
-echo &amp;#39;weblogic  soft memlock 16384000&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
-echo &amp;#39;weblogic  hard memlock 16384000&amp;#39; &amp;gt;&amp;gt; /etc/security/limits.conf
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;IFCONFIG MTU&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ifconfig ib0 | grep MTU; ifconfig ib1 | grep MTU; ifconfig bond0 | grep MTU
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;CHECK - LDAP USER&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;getent passwd | grep &amp;lt;user&amp;gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;mpstat – Processors Statistics&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Using mpstat command without any option, will display the Global Average Activities by All CPUs.
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Basic example sudores file&lt;/strong&gt; (there are better practices, in this case these users are allowed to excecute as root without password - General overview)&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;SUDOERS
-weblogic ALL=(ALL) NOPASSWD: /bin/vi /etc/hosts
-fmwadmin ALL=(ALL) NOPASSWD: /bin/vi /etc/hosts
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;CRONTAB&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;crontab -l (Exhibits the current crontab created)&lt;/p&gt;
-&lt;p&gt;crontab -e (Create a crontab under running user)&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Example of job definition:&lt;/span&gt;
-&lt;span class="c1"&gt;# .---------------- minute (0 - 59)&lt;/span&gt;
-&lt;span class="c1"&gt;# |  .------------- hour (0 - 23)&lt;/span&gt;
-&lt;span class="c1"&gt;# |  |  .---------- day of month (1 - 31)&lt;/span&gt;
-&lt;span class="c1"&gt;# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...&lt;/span&gt;
-&lt;span class="c1"&gt;# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR                  sun,mon,tue,wed,thu,fri,sat&lt;/span&gt;
-&lt;span class="c1"&gt;# |  |  |  |  |&lt;/span&gt;
-&lt;span class="c1"&gt;# *  *  *  *  * user-name command to be executed&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Tee usage (similar to echo)&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;tee /etc/yum.repos.d/docker.repo &amp;lt;&amp;lt;-EOF
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Obtain PID specific application&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ps aux | awk -v app=&amp;#39;Apache&amp;#39; &amp;#39;$0 ~ app { print $1 }’
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Using GIT to pull projects&lt;/strong&gt; &lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone https://github.com/Bankmonitor/sample-app sample-app
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Working with Aliases&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;alias
-alias cp=&amp;#39;cp -i&amp;#39;
-alias egrep=&amp;#39;egrep --color=auto&amp;#39;
-alias fgrep=&amp;#39;fgrep --color=auto&amp;#39;
-alias grep=&amp;#39;grep --color=auto&amp;#39;
-alias l.=&amp;#39;ls -d .* --color=auto&amp;#39;
-alias ll=&amp;#39;ls -l --color=auto&amp;#39;
-alias ls=&amp;#39;ls --color=auto&amp;#39;
-alias mv=&amp;#39;mv -i&amp;#39;
-alias rm=&amp;#39;rm -i&amp;#39;
-alias which=&amp;#39;alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde’
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Linux"></category><category term="Unix"></category><category term="OS"></category><category term="sysadmin"></category><category term="devops"></category></entry><entry><title>WebServers</title><link href="http://www.ebsantos.com/ApacheNginx.html" rel="alternate"></link><published>2018-02-02T01:15:00-06:00</published><updated>2018-02-02T01:15:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-02-02:/ApacheNginx.html</id><summary type="html">&lt;h1&gt;Apache&lt;/h1&gt;
+&lt;p&gt;Cheers...&lt;/p&gt;</content><category term="Devops"></category><category term="Containers"></category><category term="SysOps"></category></entry><entry><title>WebServers</title><link href="http://www.ebsantos.com/ApacheNginx.html" rel="alternate"></link><published>2018-02-02T01:15:00-06:00</published><updated>2018-02-02T01:15:00-06:00</updated><author><name>Edson Santos</name></author><id>tag:www.ebsantos.com,2018-02-02:/ApacheNginx.html</id><summary type="html">&lt;h1&gt;Apache&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Apache Example&lt;/strong&gt; (Configs may vary, depends on each case - Basic overview)&lt;/p&gt;
 &lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;REVERSE PROXY - APACHE
 &lt;span class="nt"&gt;&amp;lt;VirtualHost&lt;/span&gt; &lt;span class="err"&gt;*:80&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt; 
