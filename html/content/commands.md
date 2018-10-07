@@ -1,16 +1,13 @@
 Title: Linux Hacks and Command Line!
-Date: 2018-07-22 01:20
+Date: 2018-10-07 01:20
 Category: Technology
-Tags: Linux, OS, sysadmin, devops, curl, wget, Certificates, Keytool, SoapUI, Shell, Script, Git
+Tags: Linux, OS, sysadmin, curl, wget, Certificates, Keytool, SoapUI, Shell, Script, Git
 Slug: Linuxcommand
 Authors: Edson Santos
 
-
-# Linux Command Line Resource Kit
-
+**SYSTEMD**
 
 **SYSTEMCTL (RedHat/CentOS) usage** 
-
 To enable or disable services automatically on CentOS or RedHat Flavors.
 
 	systemctl disable httpd
@@ -342,63 +339,63 @@ Exclude Example
 
 echo "# Test1" >> README.md
 
-git init
+	git init
 
-git add README.md
+	git add README.md
 
-git commit -m "first commit"
+	git commit -m "first commit"
 
-git remote add origin https://github.com/Eddie-Uncle/Test1.git
+	git remote add origin https://github.com/Eddie-Uncle/Test1.git
 
-git push -u origin master
+	git push -u origin master
 
 
 **VERY IMPORTANT - UNDO LAST PUSH / PULL**
 
-git push -f origin HEAD^:master --> undo last push/pull
+	git push -f origin HEAD^:master --> undo last push/pull
 
-git pull -f origin HEAD^:master || git pull -f origin HEAD^:(branch)
+	git pull -f origin HEAD^:master || git pull -f origin HEAD^:(branch)
 
 **Delete git — Locally**
 
-$ git checkout master #switch to another branch in this case master
+	git checkout master #switch to another branch in this case master
 
-$ git checkout -b edsonnewbranch #switched to the branch edsonnewbranch and so on ...
+	git checkout -b edsonnewbranch #switched to the branch edsonnewbranch and so on ...
  
-$ git branch -d Test_Branch # (Delete locally desired branch)
+	git branch -d Test_Branch # (Delete locally desired branch)
 
-$ git branch -D Test_Branch # (Delete locally force option)
+	git branch -D Test_Branch # (Delete locally force option)
 
 **Delete git - Remote**
 
-git push origin --delete eddie-branch # (git push origin --delete branch to be deleted)	
+	git push origin --delete eddie-branch # (git push origin --delete branch to be deleted)	
 
 **git pull / push commands**
 
 Pulling code from Remote repo to local repo:
 
-git pull origin master || git pull origin edsonnewbranch
+	git pull origin master || git pull origin edsonnewbranch
 
 Pushing code from Local repo to remote repo:
 
-git push origin master || git push origin edsonnewbranch
+	git push origin master || git push origin edsonnewbranch
 
 **git operations**
 
-git log -p
+	git log -p
 
-git status
+	git status
 
-git show
+	git show
 
 **git credentials and user settings**
 
-git config --global user.name Eddie-Uncle
+	git config --global user.name Eddie-Uncle
 
-git config --global use.email bernardsp@gmail.com
+	git config --global use.email bernardsp@gmail.com
 
-git config --global core.editor vim
+	git config --global core.editor vim
 
-git config --global merge.tool vimdiff
+	git config --global merge.tool vimdiff
 
-git config --list
+	git config --list
