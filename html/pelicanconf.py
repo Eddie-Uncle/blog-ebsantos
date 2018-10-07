@@ -17,7 +17,7 @@ PLUGINS = ['neighbors','jinja2content','gzip_cache','i18n_subsites']
 
 JINJA_ENVIRONMENT = {'extensions':['jinja2.ext.i18n','jinja2.ext.autoescape','jinja2.ext.with_']}
 
-TIMEZONE = 'America/Costa_Rica'
+TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = 'English'
 
