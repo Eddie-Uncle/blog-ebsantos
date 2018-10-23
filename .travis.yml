@@ -1,0 +1,14 @@
+sudo: required 
+
+services:
+  - docker
+
+install: 
+  - echo "Not have dependencies!"
+
+script:
+  - echo "Not have tests!"
+
+after_success:
+  - docker --version
+  - docker build -t blog .
