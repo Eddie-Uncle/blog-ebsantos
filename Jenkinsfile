@@ -17,7 +17,7 @@ pipeline {
         branch 'master'
       }
       steps {
-        withDockerRegistry([ credentialsId: "6544de7e-17a4-4576-9b9b-e86bc1e4f903", url: "" ]) {
+        withDockerRegistry([ credentialsId: "eddie75/!#75CRghb18up@", url: "https://hub.docker.com/" ]) {
           sh 'docker push eddie75/blog:latest'
         }
       }
